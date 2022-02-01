@@ -1008,11 +1008,24 @@
       },
       {
         "text": [
-          { "print": "◾세인의 편을 든다", "code": "M1-m1" },
-          { "print": "◾상수의 편을 든다", "code": "M1-m2" },
-          { "print": "◾다시 영의 이야기를 듣는다", "code": "M1-m3" }
+          {
+            "conditionalCode": "subnav1",
+            "code": "M1-m1",
+            "print": "◾세인의 편을 든다"
+          },
+          {
+            "conditionalCode": "subnav1",
+            "code": "M1-m2",
+            "print": "◾상수의 편을 든다"
+          },
+          {
+            "conditionalCode": "E1",
+            "code": "M1-m3",
+            "print": "◾다시 영의 이야기를 듣는다"
+          }
         ],
-        "option": true
+        "option": true,
+        "condition": true
       }
     ],
     "M1-m1": [
@@ -1066,7 +1079,7 @@
       },
       {
         "text": [
-          { "print": "END4 트루 엔딩: 살아가는 사람들", "code": "end5" }
+          { "print": "END4 트루 엔딩: 살아가는 사람들", "code": "end4" }
         ],
         "option": true
       }

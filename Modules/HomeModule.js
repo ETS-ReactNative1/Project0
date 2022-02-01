@@ -272,6 +272,8 @@ export const HomeModuleProvider = ({ children }) => {
           settingScripts(main4);
           break;
       }
+      setEventCounter(0);
+      setNewEvent(0);
     } else if (mainEndingList.includes(prop)) {
       settingScriptCode(prop);
       settingScripts(mainEnding);
@@ -294,6 +296,8 @@ export const HomeModuleProvider = ({ children }) => {
           console.log(valuelist);
         }
       }
+      setEventCounter(0);
+      setNewEvent(0);
     } else {
       settingScriptCode(prop);
     }
