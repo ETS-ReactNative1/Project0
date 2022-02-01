@@ -1,0 +1,379 @@
+[
+  {
+    "with2": [
+      {
+        "text": "평탄한 날이었다. 더 나쁠 것도, 더 좋을 것도 없이 그저 그런 하루. 괴물이 나타나기 전의 일상과 비교하자면 분명 최악의 날이었겠으나, 이제는 최악이 일상이 되고, 그런 일상에 익숙해질 만큼의 시간이 흘러 버렸다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "찌그러진 자동차의 차체 안에서 유리 파편 사이를 더듬어 포장이 뜯어지지 않은 봉지 과자를 하나 건져 냈다. 괴물에게 덜미를 잡히지 않기 위해 숨을 참아 가며 고양이나 드나들 수 있을 법한 비좁은 골목의 벽에 몸을 끼웠다. 죽은 사람의 시체는 여러 번 밟아 지났고, 제대로 치료되지 않은 상처가 가려워 벅벅 긁다가 피를 보기도 했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "그러니까, 그렇게 평탄한 일상 속에서 돌연 나를 향한 영의 선언은 무척 갑작스러운 것이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "저, 드릴 말씀이 있어요……. 잠깐 쉬었다 갈까요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "……제가 먼저 동행을 제안해 놓고는 죄송스러운 이야기지만, 그…… 저희의 동행을 여기까지 해야 할 것 같아서요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "지금까지 정말 고마웠어요. 덕택에 편히 쉴 수 있었던 날이 많았어요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [{ "print": "◾갑자기 무슨 일인지", "code": "with2-a" }],
+        "option": true
+      }
+    ],
+    "with2-a": [
+      {
+        "text": "여태 동행하며 영은 주로 내 말에 동의하거나, 동의하지 않더라도 그것을 묵인하는 경우가 대부분이었다. 나서서 어떤 의견을 주장하거나 감정을 드러내는 일이 없었다는 의미다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "그래서일까, 문득 나는 내가 영에 대해 알고 있는 지식이 아주 단편적이고 쓸모없는 것뿐이라는 사실을 깨달았다. 지금 영이 무슨 심정으로 내게 동행을 파하자는 이야기를 했는지, 지금까지 나와 다니면서는 어떤 생각들을 해 왔는지 조금도 짐작 가는 바가 없었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "영은 어떤 사람이었을까. 무엇을 좋아하고 무엇을 싫어하며, 언제 기뻐하고 언제 화를 냈더라? 영에게 갑자기 왜 동행을 그만두고 싶어진 것인지 이유를 물었지만, 영은 고개를 저으며 그저 미소 지어 보이기만 했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "당신에게 문제가 있었던 건 아니에요. 아무래도 곧, …….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "……일이 생길 것 같아서요. 아주 개인적인 일이요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          { "print": "◾그 일이 무엇인지 묻는다", "code": "with2-b1" },
+          { "print": "◾더 묻지 않고 영을 보내 준다", "code": "with2-b2" }
+        ],
+        "option": true
+      }
+    ],
+    "with2-b1": [
+      {
+        "text": "동행 내내 자신의 의견 따위는 중요치 않다는 듯 내게 자신을 맞추며 도움을 줬던 영이었다. 그러니 최소한 마지막 한 번쯤은 영의 사정에 대해 알고, 도울 수 있는 것이 있다면 돕고 싶었다. 영이 말하는 일에 대해 물으며 도움을 주겠다고 말하자, 영은 착잡한 표정으로 나를 마주했다. 처음부터 지금까지, 붕대를 감고도 드러나는 표정 하나만큼은 참 솔직했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "누군가 한 사람이 도와 줄 수 있을 만한 일은 아니에요. 그래도 말만은 감사하네요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "……그럼, 대신 질문 하나만 받아 주시겠어요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "그러겠다고 답하자 영은 뜻밖의 물음을 던졌다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "세상이 이렇게 되어 버리기 전에, 당신은 하고 싶었던 일이 있었나요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          { "print": "◾있었다", "code": "with2-c1" },
+          { "print": "◾없었다", "code": "with2-c2" }
+        ],
+        "option": true
+      }
+    ],
+    "with2-c1": [
+      {
+        "text": "하고 싶은 일을 하지 못하고 사는 사람들이야 많지만, 하고 싶은 일이 아예 없는 사람이 얼마나 되겠는가. 돌이켜 보면 내게도 꼭 하고 싶었던 일이 하나쯤은 있었던 것 같다. 이제는 아무 소용도 없어져 버렸지만. 나는 떠오르는 일을 영에게 답했다. 그러자 영은 기다려 왔다는 것처럼 두 번째 물음을 던졌다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "그럼, 이제 다음을 생각해 봐요. 당신 눈앞엔 그 일을 이룰 수 있는 방법이 있어요. 하지만 그 방법을 실행하고 나면 어떤 방식으로든 누군가에게 큰 피해가 가게 돼요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "내가 의도했든, 의도하지 않았든…… 뒤따를 피해가 필연적이라면, 당신은 그 선택에 책임을 질 수 있으시겠어요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "그것을 감수하면서까지 그 일을 이루고 싶으신가요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "물음을 던지는 얼굴이 어둡게 가라앉아 있었다. 한 번도 바닥을 보인 적 없는 오래된 우물 안을 들여다보는 것 같았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          { "print": "◾이루고 싶다", "code": "with2-d1" },
+          { "print": "◾이루고 싶지 않다", "code": "with2-d2" }
+        ],
+        "option": true
+      }
+    ],
+    "with2-c2": [
+      {
+        "text": "가족도, 친구도, 동료도, 그래, 그놈의 아는 길고양이 한 마리 없던 삶에 무슨 하고 싶은 일이 있었겠는가. 돌이켜 보면 정말이지 텅 빈 채 살아 오던 삶이었다. 오히려 세상이 이렇게 변해 버리고 난 뒤에 처음으로 절실함이란 것을 느껴 본 것도 같았다. 나는 영에게 하고 싶은 일이 없었다고 답했다. 그러자 영은 느릿하게 말을 이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "그러면 당신은 모르겠네요. 원하는 일을 위해 무엇이든 할 수 있다는 마음 같은 거요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "……그럼, 지금의 생존으로 생각해 볼까요? 당신 눈앞엔 앞으로의 생존을 보장받을 수 있는 방법이 하나 있어요. 하지만 그 방법을 실행하고 나면 어떤 방식으로든 누군가에게 큰 피해가 가게 돼요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "내가 의도했든, 의도하지 않았든……. 뒤따를 피해가 필연적이라면, 당신은 그 선택에 책임을 질 수 있으시겠어요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "그것을 감수하면서까지 생존이라는 목표를 이루고 싶으신가요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "물음을 던지는 얼굴이 어둡게 가라앉아 있었다. 한 번도 바닥을 보인 적 없는 오래된 우물 안을 들여다보는 것 같았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          { "print": "◾이루고 싶다", "code": "with2-d1" },
+          { "print": "◾이루고 싶지 않다", "code": "with2-d2" }
+        ],
+        "option": true
+      }
+    ],
+    "with2-d1": [
+      {
+        "text": "어떤 피해가 있든 간에, 영이 제시한 조건대로라면 어차피 남의 이야기일 뿐이지 않나. 내게 피해가 오는 일도 아니니 충분히 이뤄봄직하다는 생각이 들었다. 나는 솔직하게 목표를 이루고 싶다고 답했다. 영은 이 답을 예상한 것처럼 보였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "……역시 그렇죠? 결국 사람들은 모두 자신을 위해 살아갈 수밖에 없는 걸까요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "저도, 당신도, 한미도, 이세인도, 선생님도, 모두요…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "중얼거리며 뺨과 붕대의 경계를 갉작이는 모습이 초조해 보이기도, 안타까워 보이기도 했다. 피부가 하얘질 만큼 입술을 꾹 물고 있는 영의 마음을 다 짐작할 수 없어 무언가를 더 물을 수는 없었다. 이 질문들은 무슨 의미였던 걸까. 한미라는 사람은 이전에 같이 다니던 사람인가?",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "……그래요. 이제 대강 마음이 정리된 것 같아요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "긴 침묵 끝에 영이 고개를 들었다. 홀가분해진 듯한 얼굴 안에 무어라 형용하기 힘든 슬픔이 가득 차 있었다. 아니, 기우일 뿐일까. 저렇게 망설임 없이 돌아서는 뒷모습을 보고 있자니 영과의 오랜 동행이 없었던 일인 듯 여겨졌다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "정말 가 봐야겠네요. 대답해 주셔서 고마워요. 도움이 됐어요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "다시 한번 그동안 고마웠어요. 안녕.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "그게 끝이었다. 평소에 내 말이라면 항상 곧게 들어 주며 오히려 이야기를 오래 끌어 가려던 영과의 마지막은. 다음을 기약하는 말 한 마디 없었다. 자리에 남은 내 상처투성이 손끝을 내려다보았다. 살아남기 위해 바득바득 위험을 헤쳐 온 손이 잔뜩 해진 채였다. 꼭 처음 영과 만났을 때 마주한 그의 상처만이 이곳에 남아 있는 것 같았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "code": "main4", "print": "◾다음으로" }],
+        "option": true
+      }
+    ],
+    "with2-d2": [
+      {
+        "text": "나의 바람이 무엇이든 간에, 설령 내 생존을 건 것일지라도 남에게 피해를 끼치면서까지 그것을 이루고 싶지는 않았다. 남을 해치지 않으면서 내 목적을 이룰 수 있는 다른 온건한 방법이 분명히 있을 테다. 나는 그런 다른 길을 찾고 싶다고 영에게 답했다. 영은 이 답을 예상하지 못했다는 것처럼 당황한 얼굴이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "……하, 하지만, 피해를 입는다는 건 남의 일일 뿐이잖아요. 다른 방법을 찾을 수 있다는 보장도 없고요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "제가 바라는 목적이 더 많은 사람을 위한 것이라면요? 작은 피해 정도야 감수해도 괜찮은 것 아닌가요? ……아, 아니야. 그런 걸 더는 참을 수 없어서, 한미가 나를…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "중얼거리며 뺨과 붕대의 경계를 갉작이는 모습이 초조해 보이기도, 안타까워 보이기도 했다. 피부가 하얘질 만큼 입술을 꾹 물고 있는 영의 마음을 다 짐작할 수 없어 무언가를 더 물을 수는 없었다. 이 질문들은 무슨 의미였던 걸까. 한미라는 사람은 이전에 같이 다니던 사람인가?",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "……그래요. 이제 대강 마음이 정리된 것 같아요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "긴 침묵 끝에 영이 고개를 들었다. 홀가분해진 듯한 얼굴 안에 무어라 형용하기 힘든 슬픔이 가득 차 있었다. 아니, 기우일 뿐일까. 저렇게 망설임 없이 돌아서는 뒷모습을 보고 있자니 영과의 오랜 동행이 없었던 일인 듯 여겨졌다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "정말 가 봐야겠네요. 대답해 주셔서 고마워요. 도움이 됐어요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "다시 한번 그동안 고마웠어요. 안녕.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "그게 끝이었다. 평소에 내 말이라면 항상 곧게 들어 주며 오히려 이야기를 오래 끌어 가려던 영과의 마지막은. 다음을 기약하는 말 한 마디 없었다. 자리에 남은 내 상처투성이 손끝을 내려다보았다. 살아남기 위해 바득바득 위험을 헤쳐 온 손이 잔뜩 해진 채였다. 꼭 처음 영과 만났을 때 마주한 그의 상처만이 이곳에 남아 있는 것 같았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "code": "main4", "print": "◾다음으로" }],
+        "option": true
+      }
+    ],
+    "with2-b2": [
+      {
+        "text": "동행 내내 자신의 의견 따위는 중요치 않다는 듯 내게 자신을 맞추며 도움을 줬던 영이었다. 그러니 최소한 마지막 한 번쯤은 영의 의사를 전적으로 따라 주고 싶었다. 나는 영에게 말 못할 사정이 있다면 굳이 묻지 않겠다고 말했다. 그래도 혹시 도움이 필요하면 찾아오라는 말과 함께.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "영은 착잡한 표정으로 나를 마주했다. 처음부터 지금까지, 붕대를 감고도 드러나는 표정 하나만큼은 참 솔직했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "……누군가 한 사람이 도와 줄 수 있을 만한 일은 아니에요……. 그래도 말만은 감사하네요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "그럼, 먼저 가 볼게요. 다시 한번 그동안 고마웠어요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "그게 끝이었다. 평소에 내 말이라면 항상 곧게 들어 주며 오히려 이야기를 오래 끌어 가려던 영과의 마지막은. 다음을 기약하는 말 한 마디 없었다. 자리에 남은 내 상처투성이 손끝을 내려다보았다. 살아남기 위해 바득바득 위험을 헤쳐 온 손이 잔뜩 해진 채였다. 꼭 처음 영과 만났을 때 마주한 그의 상처만이 이곳에 남아 있는 것 같았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "code": "main4", "print": "◾다음으로" }],
+        "option": true
+      }
+    ]
+  }
+]

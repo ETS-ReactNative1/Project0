@@ -2,6 +2,7 @@ package com.noovie;
 
 import android.os.Build;
 import android.os.Bundle;
+import org.devio.rn.splashscreen.SplashScreen;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

@@ -1,0 +1,371 @@
+[
+  {
+    "with1": [
+      {
+        "text": "경계하고, 떠돌고, 마주치고 달아나기를 반복하는 하루가 계속됐다. 영과 동행하게 된 지도 며칠 정도의 시간이 흐른 뒤였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "영은 동행을 처음 수락했을 때와 다름없는 태도로, 내게 도움이 되기 위해 적극적인 모습을 보였다. 처음에는 무슨 속셈이라도 있는 것이 아닐지 경계가 되기도 했지만, 며칠 간 지켜본 영은 뒤에서 꿍꿍이를 꾸밀 법한 사람은 아니었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "번갈아 불침번을 서며 지새우는 밤. 나는 괴물의 주된 동선 바깥에 위치하는 폐건물에서 바깥을 경계하고 있었다. 컴컴한 창가에 주저앉아 변화 없이 좁은 길만을 바라보고 있자니 잠이 몰려왔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "졸음기를 깨우려 크게 하품하며 팔을 꼬집고 있자니, 옆쪽에서 잠든 영이 앓는 소리를 내는 것이 들려 왔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "……으, 으으…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "악몽이라도 꾸고 있는 걸까. 흐트러진 머리칼에 가려진 낯빛이 창백하다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": [
+          { "print": "◾잠을 깨운다", "code": "with1-a1" },
+          { "print": "◾가만히 지켜본다", "code": "with1-a2" }
+        ],
+        "option": true
+      }
+    ],
+    "with1-a1": [
+      {
+        "text": "저대로 계속 잠을 자 봤자 휴식이 되지도 못하겠지. 영의 이름을 부르며 어깨를 흔들어 깨웠다. 영은 괴로운 듯 몸을 비틀다가 이내 간신히 눈을 뜨며 거친 숨을 몰아쉬었다. 목덜미에 식은땀이 차게 맺혀 있었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "……으……. 죄, 죄송, 싫어요, 그렇지만 저는…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "헛소리를 해 대는 영의 이름을 몇 차례 더 부르자, 영은 그제야 제정신이 돌아온 듯 멍한 얼굴이 되어 나를 바라봤다. 창백한 낯이 꼭 사람보다는 유령에 가까워 보였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "……아.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "아아, 아! 죄, 죄송해요. 신경 쓰이게 했죠. 가끔 꿈자리가 사나워서, 부끄러운 모습을 보였네요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "자리에서 벌떡 일어난 영은 흐트러진 머리칼을 정리하며 이부자리를 정리했다. 얼굴을 보이지 않으려는 듯 내게서 뒤돌아선 채였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "죄송해요. 다시 잠들기도 뭐하니까, 이제부터는 제가 불침번을 설게요. 당신은 좀 주무세요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": [
+          { "print": "◾불침번을 맡기고 잠든다", "code": "with1-b1" },
+          { "print": "◾무슨 꿈이었는지 묻는다", "code": "with1-b2" }
+        ],
+        "option": true
+      }
+    ],
+    "with1-b1": [
+      {
+        "text": "그렇잖아도 불침번을 서며 한창 잠이 오던 참이다. 영의 제안을 거절하지 않고 불침번을 넘기기로 했다. 내 몫의 이부자리를 깐 뒤 눈을 감자, 애써 참아 내던 피로가 둑이 터진 듯 전신을 짓눌러 왔다. 옆에서 영이 부스럭거리는 소리가 옅게 들려 왔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "영과 잘 자라는 인사를 작게 나눈 뒤 그대로 곯아떨어졌다. 희미한 울음소리 같은 것이 귓가를 스친 것도 같았지만, 다시 정신을 차리기에는 너무 몸이 무거웠다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "결국 아침이 다 되어서야 일어나 버린 나는 평소와 다름없는 영의 모습에 더 많은 것을 묻지는 못하고 자리를 정리해야 했다. 그래도 간만에 푹 잠들어서인지 몸이 한결 가뿐한 것 같았다. 이제 다시 길을 떠나야겠지.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾다음으로", "code": "main2" }],
+        "option": true
+      }
+    ],
+    "with1-b2": [
+      {
+        "text": "아무래도 영이 평범한 꿈을 꾼 것은 아닌 것 같았다. 그래도 이제는 동행인인데, 동행인의 상태 정도는 챙겨 줘야겠지. 영에게 무슨 꿈을 꾼 것인지 묻자 영은 답을 회피하듯 입을 다물었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "굳이 영을 재촉하지는 않았다. 침침한 달빛이 내리깔린 바깥 풍경을 나란히 앉아 눈에 담았을 뿐이다. 한때는 저 거리도 불빛 찬란한 야경을 자랑했을 텐데. 영의 조용한 숨소리를 들으며 이런저런 생각을 하고 있자니 괜히 옛날이 떠올랐다. 영의 감상도 크게 다르지 않은 것 같았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "영은 한참 뒤에야 입을 열었다. 무릎에 자신의 얼굴을 푹 묻은 채였다. 내 쪽에서는 그의 붕대 감은 얼굴밖에는 보이지 않아, 여전히 어떤 표정을 짓고 있는지는 알 도리가 없었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "예전에 말이에요. 세상이 이렇게 되기 전에.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "정말 의지하던 동료가 하나 있었어요. 당신을 만나기 전까지 함께 동행하던 사람이요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "듣고 있음을 표시하듯 목소리를 내자, 영은 힘없는 웃음을 흘렸다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "그 사람이 죽던 날의 꿈이었어요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": [{ "print": "◾그날 무슨 일이 있었는지", "code": "with1-c1" }],
+        "option": true
+      }
+    ],
+    "with1-c1": [
+      {
+        "text": "조심스럽게 죽은 동료의 이야기를 묻자, 영은 씁쓸한 미소를 띤 채 내 쪽을 돌아봤다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "만났었죠? 이세인이라는 사람이요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "고개를 끄덕이자 무거운 침묵이 흘렀다. 영은 울음을 참듯 억눌린 목소리로 말을 이었다. 영이 이렇게 부정적인 감정을 내보이는 것은 동행 이래 처음 보는 일이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "그 사람이 동료를 죽음으로 몰아넣었어요. 악의가 있는 행동은 아니었죠.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "다만, 그저…… 각자에게 소중한 가치가 달랐던 것뿐이겠죠. 이세인에게 큰 무리가 있는 반면, 우리는 둘뿐이었고…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "……이런 세상에서 소수란 곧 약자이고, 약자는 곧 배척의 대상이 되죠.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": [
+          {
+            "code": "sub1-b1",
+            "print": "약자가 배척의 대상이 된다는 말이 마트에서 본 세인의 모습과 겹쳐져 떠올랐다. 노인과 어린아이들을 위해 약품을 필요로 하던 상수의 면전에서 화를 내고 있었지. 나 역시도 그의 행동에 동조했으니 할 말이 없었다. 영의 일도 어쩔 수 없었던 경우일 것이다."
+          },
+          {
+            "code": "sub1-b2",
+            "print": "약자가 배척의 대상이 된다는 말이 마트에서 본 세인의 모습과 겹쳐져 떠올랐다. 노인과 어린아이들을 위해 약품을 필요로 하던 상수의 면전에서 화를 내고 있었지. 아무리 이런 세상이더라도 그의 사상은 비인간적인 면이 있었다. 상수와 영 외에도 피해자들이 있을까."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "다음 이야기를 기다리며 앉아 있었지만, 영은 그 이상의 자세한 이야기는 하고 싶지 않은 듯 보였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "더 이야기할 기분은 아니네요. 뒷문을 한 번만 점검하고 올게요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "영은 말을 마치고는 일어나 밖으로 향했다. 그리고 한참 뒤 영이 붉은 눈가를 문지르며 돌아왔을 때, 우리는 모르는 척 짐을 싸며 자리에서 일어났다. 그날 어떤 일이 있었는지에 대해 다시 말을 꺼내는 일은 없었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾다음으로", "code": "main2" }],
+        "option": true
+      }
+    ],
+
+    "with1-a2": [
+      {
+        "text": "그렇잖아도 계속해서 달아나고 번갈아 불침번을 서는 탓에 수면 시간을 제대로 확보하지 못하고 있는데, 굳이 영의 잠을 깨워야 할지 망설여졌다. 영은 나와 만나기 전까지는 혼자 이런 생활을 지속해 왔을 테니 더 피곤하겠지.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "일면에서는 내가 본 적 없었던 영의 모습이 궁금했던 것일지도 모른다. 영은 괴로운 듯 인상을 잔뜩 찌푸린 얼굴로 헛소리를 뱉기 시작했다. 잠꼬대라기엔 선뜩할 정도로 정확한 발음으로 흘러나오는 애원이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "제발요. 살고 싶어요. 살고 싶어요……. 그건 거짓말이 아니었어요. 정말이에요…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "대체 누구에게 이렇게 간절히 빌고 있는 걸까. 뒤척이는 옷자락이 점차 식은땀에 젖어 갔다. 결국 잠을 깨우는 편이 낫겠다고 생각될 무렵, 영이 외마디 비명과 함께 자리에서 벌떡 일어났다. 비명 소리가 건물 내부를 울리며 웅웅거렸다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "헉, ……헉, 으윽…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": [{ "print": "◾괜찮은지 묻는다", "code": "with1-b3" }],
+        "option": true
+      }
+    ],
+    "with1-b3": [
+      {
+        "text": "잠에서 다 헤어 나오지 못한 영을 붙들어 흔들며 괜찮은지를 물었다. 영은 소스라치게 놀라며 손을 뿌리치고 몸을 웅크렸다. 나를 제대로 알아보지도 못하는 것 같았다. 가는 어깨가 덜덜 떨리는 것이 육안으로 봐도 확인할 수 있을 정도였다. 꿈자리가 심하게 좋지 않았던 모양이다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "영의 상태보다 문제인 것은 직전에 들린 큰 비명 소리였다. 그 정도 크기였다면 분명 고요한 바깥까지 소리가 새어 나갔겠지. 아무래도 괴물들에게 발각되기 전에 빨리 자리를 옮기는 편이 나을 것 같았다. 제대로 정신을 차리지 못하고 있는 영을 두고 급하게 이부자리를 정리했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "영은 내가 정리를 마치고 상태를 재차 묻자 그제서야 괜찮다고 이야기하며 자리에서 일어났다. 말과는 다르게 여전히 상처투성이 손끝이 떨리고 있었다. 동행인의 꿈자리를 묻고 싶었지만, 더 이야기를 나누기에는 상황이 좋지 못했다. 멀리서 괴물의 울음소리가 다가왔다. 오늘 밤은 한 곳에서 평안히 머무를 수 없을 것 같았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾다음으로", "code": "main2" }],
+        "option": true
+      }
+    ]
+  }
+]

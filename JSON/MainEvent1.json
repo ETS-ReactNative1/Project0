@@ -1,0 +1,1554 @@
+[
+  {
+    "A0": [
+      {
+        "text": "20XX년 XX월. 세상이 쫄딱 망해 버린 지도 벌써 오늘로 몇 달이 지났다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+
+      {
+        "text": "어느 날 갑자기 나타난 괴물은 우리의 일상을 송두리째 바꾸어 놓았다. 인간의 두 배는 되는 크기에 기괴하게 부풀어 있는 전신, 이족 보행을 하는 기괴한 모습의 생명체들이었다. 일각에서는 그것이 외계의 침략이라고 말하고, 누군가는 신의 진노가 땅을 덮친 것이라고 떠들어 댔다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "정부는 사람들에게 집 안에 머무를 것을 권고하며 사태의 빠른 해결을 약속했지만, 상황은 전혀 나아지고 있는 것 같지 않다. 깨질 수 있는 창이란 창은 모두 막아 둔 탓에 해가 제대로 들지 않는 실내. 낮밤이 명확히 구분되지 않는 매일. 집 밖에서는 원인 모를 괴성이 들려올 뿐이다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "기지국은 사태가 발발한 지 며칠만에 날아가 버렸다. 보통 재난 영화나 게임에서는 라디오로 바깥 상황을 알기도 하던데, 현대인의 자취방에 그런 게 놓여 있을 리가. 스마트폰이 고물로 전락하기 전 마지막으로 확인한 뉴스는 도심의 곳곳에 화재가 잇따르고 있다는 내용이었다. 나는 적어도 집 안에서 통구이가 되어 죽지는 않았으니 다행이었다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "오랫동안 누구의 소식도 듣지 않고 살다 보니 정말 이 세상에 나 혼자 남기라도 한 듯했다. 가족은 없다. 가깝게 지내던 친구도, 친한 동료도, 심지어는 알고 지내던 길고양이 한 마리 없다는 게 오히려 이런 세상에선 행운으로 작용할지도 모르겠다. 누군가의 생사를 걱정하느라 온종일 불안에 떨 일은 없으니까.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "중요한 건, 그런 나날이 얼마 남지 않았다는 거겠지.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "생으로 씹어 먹던 즉석 식품들이 동났다. 갉작거리던 질소 과자도 이젠 끝이다. 아직 생수병은 몇 통인가 남아 있지만, 이것도 길게 가지는 못할 것 같다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "어떻게 해야 할까? 이대로 집 안에서 계속 버텨 봤자 희망이 있을까? 밖에 나간다고 해서 무언가 달라지는 게 있을까?",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "선택해야 할 때가 왔다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": [
+          { "print": "◾밖으로 나간다", "code": "A2" },
+          { "print": "◾밖으로 나가지 않는다", "code": "A1" }
+        ],
+
+        "option": true
+      }
+    ],
+
+    "A1": [
+      {
+        "text": "인터넷이 끊기기 전에 어디선가 그런 구절을 읽었던 것도 같다. 사람은 식량 없이도 3주는 버틸 수 있다고. 집 안에서 조금만 더 버텨 보자. 정부가 사태를 진압해 주겠지. 현대 기술이 얼마나 발전했는데 설마 몇 달 동안 밖에서 아무 진전이 없었겠는가. 섣불리 나가 봤자 어떤 꼴을 당할지도 모르는 일이다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "방구석에 주저앉아 벽에 등을 기대자 졸음이 밀려들었다. 집 안에서 운동을 한다고는 해도 어쩔 수 없이 떨어진 체력 탓인지, 시도 때도 없이 곯아떨어지는 일상도 이젠 익숙했다. 잠들었다 깨어나면 이번엔 얼마나 시간이 흘러 있을까?",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "안일하게 감기던 눈꺼풀을 다시 뜨이게 한 것은 거대한 굉음이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "쾅,",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "지진이라도 난 것처럼 몸이 뒤흔들렸다. 반동으로 몸이 쓰러져 바닥에 머리를 크게 부딪혔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "문 앞에 쌓아 둔 바리케이드에 잔뜩 쌓인 먼지가 풀풀 날리고 있었다. 치미는 기침을 참으며 눈가에 맺힌 눈물을 닦아 냈다. 갑자기 이게 무슨 일이지? 집 안에서 버티기만 하면 그만이라고 생각했는데. 설마, 괴물이 여기까지…….",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "쾅, 쾅, 대처하지 못하고 굳어 있는 사이 굉음은 몇 번이고 지속되었다. 괴물이 울부짖는 소리가 무너지는 벽 사이로 점점 더 선명하게 들려 왔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "떨어져 나간 문짝 너머로 괴물과 눈이 마주친다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": [{ "print": "◾달려!", "code": "A1-1" }],
+        "option": true
+      }
+    ],
+    "A1-1": [
+      {
+        "text": "집의 뒷문을 열고 뛰쳐나갔다. 몇 달 동안 집 안에만 틀어박혀 있던 몸이 터질 것 같다. 달리는 다리에 감각이 없었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "빠르게 스쳐 지나가는 주위 풍경이 비현실적이다. 여기저기에 영화 세트처럼 널려 있는 시체, 무너진 건물, 검게 탄 자동차와 깨진 유리창들. 사람들은 모두 어디로 간 걸까? 정말 이 세상에는 나 혼자밖에 남지 않은 걸까?",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "감상에 잠길 시간도 없이, 괴물은 등 뒤를 바짝 쫓아왔다. 짙은 피 냄새에 먹은 것도 없는 속이 울렁거렸다. 눈물이 날 만큼 헛구역질을 토해 내면서도 다리를 멈출 수는 없었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "얼마 지나지 않아 괴물의 뒤틀린 팔뚝이 내 후드 모자를 스치고 지나가는 것이 느껴졌다. 결국 따라잡혔구나. 죽는다. 이대로 끝인 걸까…….",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "???",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "왼쪽, 골목으로 들어오세요!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "그때, 어두운 골목 안쪽에서 처음 듣는 목소리가 들려 왔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": [
+          { "print": "◾목소리가 시키는 대로 한다", "code": "B2-1" },
+          { "print": "◾목소리를 무시한다", "code": "B2-2" }
+        ],
+        "option": true
+      }
+    ],
+    "A2": [
+      {
+        "text": "이렇게 집 안에만 머물러 봤자, 괴물로부터 살아남더라도 굶어 죽을 뿐이다. 짐을 챙겨 나서기로 했다. 남아 있는 옷가지와 손전등, 식수, 구급 용품 따위를 챙긴 배낭을 어깨에 멨다. 쓸모가 있을는지는 모르겠지만, 호신용으로 식칼도 한 자루 챙겼다. 몸을 짓눌러 오는 생존의 무게가 묵직하다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+
+      {
+        "text": "몇 달 동안 온갖 가구를 쌓아 막아 놓았던 문에서 잡동사니를 하나씩 치워 냈다. 우그러진 현관문 아래를 비집고 들어온 핏자국이 신발장에 검게 말라붙어 있다. 바깥에서는 무슨 일이 일어나고 있는 걸까. 이제부터 알아 가야겠지.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "심호흡을 한 뒤 몸으로 문을 세게 밀자, 오랫동안 움직이지 않았던 경첩이 음산한 소리를 내며 열렸다. 공기 중을 떠도는 텁텁한 쇳내가 차갑게 폐를 파고든다. 오래간만에 보는 빛에 눈이 아려 와 눈살을 찌푸리며 손차양을 했다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "흐린 시야 속에서 서서히 형태를 되찾는 거리의 모습에, 전신을 덮쳐 온 것은 거대한 충격이었다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "몇 달만에 보는 바깥 거리는 내가 알던 한국의 거리가 아니었다. 거리는 폐차장이라도 된 것처럼 박살 난 자동차로 가득했다. 가로등과 전봇대는 꺾인 채 여기저기 전선에 엉겨 누워 있었으며, 즐비한 핏자국을 눈으로 따르다 보면 자연히 시신이 눈에 들어왔다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "지나치게 비현실적인 풍경에 멍하게 사고가 멈춰 갈 때쯤, 어디선가 쨍한 고함 소리 같은 것이 들려왔다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+
+      {
+        "text": "키이이익—",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "굳어 가던 머리가 찬물을 맞은 듯 싸해졌다. 집 안에서 지긋지긋할 만큼 들었던 괴물의 포효 소리였다. 소리가 점점 가까워진다. 그대로 있다가는 분명 죽는다. 무슨 행동이든 해야 해!",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": [
+          { "print": "◾숨을 곳을 찾는다", "code": "B1" },
+          { "print": "◾정면으로 맞선다", "code": "B2" }
+        ],
+
+        "option": true
+      }
+    ],
+
+    "B1": [
+      {
+        "text": "집 안으로 돌아가기엔 늦다. 어디든 숨을 곳을 찾아야 한다. 주변을 급하게 둘러보자 건물과 건물 사이 좁고 어두운 골목길이 눈에 들어왔다. 괴물의 덩치로는 쉽사리 진입할 수 없을 만한 너비다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "괴물이 건물을 부수는 건 아닐까? 골목의 끝이 막다른 길이라면? 패닉 상태의 머리가 불안을 쏟아 냈지만 망설일 시간이 없었다. 밑져 봐야 본전이라는 생각으로 방향을 꺾어 골목 안으로 뛰어 들어갔다. 선택이 옳았음은 직후에 드러났다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "키이익, 괴물의 끔찍한 괴성이 고막을 찢을 듯 크게 울렸다. 귀를 손으로 틀어막고 뒤를 돌아보자, 너머로 도무지 믿을 수 없는 것이 스쳐 지나갔다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "불그스름하고 끈적한 살점 덩어리였다. 언론에서 모자이크 처리가 된 채 보도되던 괴물의 모습과는 차원이 달랐다. 기괴하게 뒤틀려 있는 팔과 다리. 시커먼 눈동자 아래로는 칼날 같은 이빨이 촘촘했으며, 등뼈를 따라 빼곡하게 나 있는 것은 털인지, 가시인지, 촉수인지 분간이 가지 않았다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "괴물의 괴성이 멀어질 때까지 입을 틀어막고 비명을 참았다. 가는 호흡 사이로 괴악한 썩은 내가 풍겼다. 다행스럽게도 괴물은 나를 발견하지 못한 듯 그 자리를 걸어 지나쳤다. 쿵, 쿵, 쿵. 멀어진 괴물의 발걸음 소리가 사그라지지 않고 심장 속에서 여전히 뛰고 있는 듯했다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": [{ "print": "◾이제 어떻게 해야 하지?", "code": "B1-1" }],
+        "option": true
+      }
+    ],
+    "B1-1": [
+      {
+        "text": "막막한 심정에 다리가 풀려 그 자리에 주저앉고 말았다. 저런 것에게서 살아남을 수 있을까. 살아남은 다른 사람들은 존재할까. 터질 것 같은 머리를 부여잡고 몸을 웅크렸다. 무릎 사이에 머리를 묻자 참아 왔던 신음이 잇새로 흘렀다. 환청처럼 가는 목소리가 귓가를 울린 것은 그때였다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "낯선 사람",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "저……. 괜찮으세요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "퍼뜩 고개를 들자 골목 안쪽에서 낡은 단화가 타박타박 아스팔트를 딛고 나왔다. 얼굴 반쪽에 피 묻은 붕대를 감은 낯선 사람이었다. 더러운 셔츠와 얇은 겉옷은 단화와 마찬가지로 해진 채. 어깨 선을 타고 퍼석퍼석한 긴 머리칼이 이리저리 제멋대로 뻗쳐 엉켜 있었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "경계하듯 상대를 바라보자 상대는 공격 의사가 없다는 듯 급하게 빈 손을 들어 보였다. 뭉툭한 손톱 아래 손바닥은 자잘한 상처투성이였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "낯선 사람",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "미, 미안해요. 놀라게 할 생각은 없었어요. 이 근방에서는 처음 보는 분이어서요. 반가운 마음에 그만…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "혹시 누구신지…… 물어도 괜찮을까요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "갑자기 나타난 불청객은 우물쭈물하며 내 눈치를 보는 듯했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          { "code": "C1", "print": "◾사실대로 이야기한다" },
+          { "code": "C2", "print": "◾답하지 않는다" }
+        ],
+        "option": true
+      }
+    ],
+    "B2": [
+      {
+        "text": "도망쳐 봤자 너무 늦다. 차라리 맞서 보는 게 나을지도 모른다. 천으로 감싸 놓은 식칼을 꺼내 들고 뒤를 돌았다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "먼발치에서 다가오고 있는 것은 불그스름하고 끈적한 살점 덩어리였다. 언론에서 모자이크 처리가 된 채 보도되던 괴물의 모습과는 차원이 달랐다. 기괴하게 뒤틀려 있는 팔과 다리. 시커먼 눈동자 아래로는 칼날 같은 이빨이 촘촘했으며, 등뼈를 따라 빼곡하게 나 있는 것은 털인지, 가시인지, 촉수인지 분간이 가지 않았다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "위압감에 짓눌려 소름이 쫙 돋았다. 인간의 두 배 크기라는 보도도 대중을 안심시키기 위해 축소한 게 아니었을까? 저런 괴물에게는 한 대 얻어맞는 것만으로도 몸이 으스러질 것 같았다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "덜덜 떨리는 몸을 애써 진정시키려 애쓰며 식칼을 꼬나 쥐었지만, 몸의 떨림은 점점 더 심해져 갈 뿐이었다. 괜찮다, 괜찮다. 끊임없이 걸고 있는 자기 암시는 조금도 효력을 발휘하지 못하는 듯했다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "그때, 바로 옆쪽의 골목에서 낯선 목소리가 들려 왔다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "낯선 사람",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "왜 그렇게 멍하게 있어요? 이리로 와요!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          { "print": "◾목소리가 시키는 대로 한다", "code": "B2-1" },
+          { "print": "◾목소리를 무시한다", "code": "B2-2" }
+        ],
+        "option": true
+      }
+    ],
+    "B2-1": [
+      {
+        "text": "이대로 가다간 정말 죽을지도 모른다. 생각을 이어 나갈 틈도 없이 목소리를 따라 골목을 향해 뛰었다. 어귀로 들어서자, 목소리의 주인은 내 손목을 붙들고 골목 안쪽으로 끌어당겼다. 쉿, 어두운 사위 가운데 입술에 가져다 댄 손가락이 상처투성이인 것이 얼핏 보였다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "괴물은 한참 동안 좁은 골목의 벽에 머리를 박아 대다가, 벽이 무너질 기색을 보이지 않자 포기한 듯 입을 쩍 벌리며 뒤를 돌았다. 붉은 돌기로 가득 찬 입 안은 여태껏 꿨던 어떤 악몽보다도 끔찍하고 두려웠다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "괴물의 발걸음이 멀어지는 소리가 들려 오자, 상대는 안도한 듯 가슴을 쓸어내리며 내 손목을 놓아 주었다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "낯선 사람",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "곧바로 포기한 것 같네……. 다행이에요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "그새 어둠에 익은 눈이 상대의 뻗친 머리카락, 한쪽 얼굴에 감은 붕대와 더러운 셔츠의 윤곽을 잡아 냈다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "낯선 사람",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "이 근방에서는 처음 보는 얼굴이네요. 그렇게 트인 곳으로 다니면 위험해요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "무슨 사정으로 그렇게 계셨는지 물어도 괜찮을까요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": [
+          { "print": "◾사실대로 이야기한다", "code": "C1" },
+          { "print": "◾답하지 않는다", "code": "C2" }
+        ],
+        "option": true
+      }
+    ],
+    "B2-2": [
+      {
+        "text": "아무리 급박한 상황이더라도, 알지도 못하는 목소리를 따라갈 수는 없다. 아니, 오히려 급박한 상황인 만큼 아무나 믿고 따라가는 건 바보 같은 짓일 테다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "목소리를 무시하고 손을 뿌리치며 눈앞의 괴물을 직시했다. 살가죽을 뚫고 터져 나온 듯 툭툭 불거진 핏덩어리 같은 근육이 눈앞까지 닥쳐 들었다. 식칼을 들고 괴물을 향해 크게 휘둘렀다. 팔목이 저릿저릿할 만큼 깊게 파고든 칼날에 낯선 고양감이 닥쳐 들었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "아니, 공포였을까.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "괴물의 살갗을 파고들었던 칼날이 그대로 미끄러지듯 바닥에 떨어졌다. 무슨 일이 일어난 거지? 인지하기도 전에 괴물의 거대한 손과 칼날 같은 이빨이 눈앞으로 빠르게 닥쳐 왔다. 와드득, 가장 먼저 떨어져 나간 것은 팔 한 쪽이었다.",
+        "option": false,
+        "hp": -1,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "팔 다음에는 다리, 그리고 곧……",
+        "option": false,
+        "hp": -1,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "본능적으로 직감했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "아, 죽겠구나.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": [{ "print": "배드 엔딩: 죽음", "code": "end1" }],
+        "option": true
+      }
+    ],
+    "C1": [
+      {
+        "text": "사정을 숨겨 봤자 득 될 것도 없겠지. 어차피 나는 바깥 사정에 대해 알고 있는 점이 아무것도 없으니까. 지금은 그나마 만난 생존자와의 신뢰를 형성하고 정보를 모으는 게 우선이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "나는 내 대략적인 신원과 함께 오랫동안 칩거하고 있었던 사정을 낯선 사람에게 털어놓았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": [
+          {
+            "code": "A1",
+            "print": "쌓아 두고 살던 즉석 식품과 식수로 근근이 버티며 정부의 구조를 기다리고 있었는데, 집 문을 부수고 들어온 괴물 때문에 어쩔 수 없이 바깥으로 나오게 되었다는 이야기였다."
+          },
+          {
+            "code": "A2",
+            "print": "쌓아 두고 살던 즉석 식품과 식수로 근근이 버티며 정부의 구조를 기다리고 있었는데, 식량이 떨어진 탓에 더는 안에서 버틸 수 없었다는 이야기였다."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "상대는 처음에는 내 이야기를 반신반의하는 것 같았지만, 몇 가지 자세한 질답에 답해 준 뒤로는 나를 완전히 신뢰하는 듯한 눈빛을 보냈다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "낯선 사람",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "운이 아주 좋으셨네요……. 그렇게 살아남았다는 생존자 이야기는 처음 들어 봐요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "아, 그러면 바깥 사정에 대해서는 잘 알지 못하시겠네요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "이렇게 된 김에 제가 조금 도움을 드릴 수도 있는데, 어떠세요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          { "print": "◾묻고 싶은 게 있다", "code": "D1" },
+          { "print": "◾딱히 궁금한 것은 없다", "code": "D2" }
+        ],
+        "option": true
+      }
+    ],
+    "C2": [
+      {
+        "text": "누군지도 모르는 사람에게 내 정보를 모두 알려주었다가는 무슨 일이 생길지 모르는 일이다. 나는 아직 바깥의 사정에 대해서는 아는 것이 조금도 없으니, 우선은 감출 수 있는 패는 모두 감춰 두기로 마음먹었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "내 신원을 밝히는 일은 껄끄럽다고 이야기하며 응답을 거절했다. 상대는 즉각 돌아오는 거절에 풀이 죽은 듯 보였지만, 이내 얼굴을 펴며 살갑게 말을 붙여 왔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "낯선 사람",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "맞아요. 요즘 같은 세상에 누군지도 모르는 사람에게 신원을 알려 주기는 어려운 일이죠.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "나쁜 사람은 아니에요, 저. ……아, 그렇지. 아까 보니까 괴물이 다니는 대로에 나가 계시던데, 괴물에 대한 지식이 많이 없으신 거죠?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "상대는 자신의 무해함을 증명하는 데에 필사적인 것처럼 보였다. 내게 호감을 사야 하는 이유라도 있는 걸까. 나는 말마따나 아무것도 모르는 사람일 뿐인데.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "낯선 사람",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "사정은 잘 모르겠지만, 제가 도와 드릴 수 있어요. 어떠세요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          { "print": "◾묻고 싶은 게 있다", "code": "D1" },
+          { "print": "◾딱히 궁금한 것은 없다", "code": "D2" }
+        ],
+        "option": true
+      }
+    ],
+    "D1": [
+      {
+        "text": "무엇이라도 더 알아 두는 편이 생존에는 도움이 되겠지. 묻고 싶은 것이 있다고 말하자 낯선 사람은 흔쾌한 미소를 지어 보였다. 올라간 눈매가 순하게 휘어졌다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "낯선 사람",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "제가 알고 있는 이야기라면 뭐든 말씀해 드릴 수 있어요. 이런 세상이니까요. 서로 돕고 살아야죠.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "아, 좀 앉아서 이야기할까요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "상대는 골목을 두리번거리다가 널브러져 있는 빈 플라스틱 궤짝 두 개를 끌고 왔다. 머쓱하게 마주 앉아 그를 바라보자, 그는 긴장을 풀려는 듯 손을 내저어 보였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "낯선 사람",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "너무 긴장하지 않으셔도 괜찮아요. 여긴 비교적 안전한 편이니까요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "한 곳에 계속 머무르지만 않는다면, 소수 인원으로 괴물을 피해 다니기는 그렇게 어렵지 않아요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          {
+            "code": "A2",
+            "print": "그런 면에서, 당신이 집 안에서만 몇 달 동안 괴물에게 공격을 받지 않고 살아 왔다는 이야기는 놀랍네요."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "맞다. 우리 아직 서로 통성명도 하지 않았죠?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "저는 최영이라고 해요. 성이 최, 이름이 영. 외자 이름이에요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "궁금하신 점은 뭔가요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": [
+          { "code": "D1-1", "print": "◾당신은 누구인지" },
+          { "code": "D1-2", "print": "◾괴물에 대해 아는 것" },
+          { "code": "D1-3", "print": "◾지금 한국의 상황" },
+          { "code": "D1-4", "print": "◾더 묻고 싶은 것은 없다" }
+        ],
+        "option": true
+      }
+    ],
+    "D1-1": [
+      {
+        "text": "상대를 신뢰하려면 상대를 먼저 알아야 하는 법이다. 영에게 당신이 누구인지를 물었다. 그는 예상하지 못한 질문이라는 듯 잠시 어색하게 굳어 있다가, 이내 선선히 물음에 답했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "죄송해요. 이런 질문을 너무 간만에 들어 봐서요. 그러니까…… 어떤 대답을 드려야 할까요? 이전의 직업? 최근의 사정?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "요즘은 이런 식으로 소개를 나눌 일이 별로 없거든요. 생존자는 드물고, 대부분 서로를 알고 있고…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "면식이 있는 사람들끼리도 얼굴과 이름 이상으로 서로를 알고 싶어 하지 않죠. 언제, 어디에서, 어떤 방식으로 작별하게 될지 모르니까요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "나로서는 달리 생각해 본 적이 없는 관점이었다. 곤란하다면 답하지 않아도 좋다고 말했지만, 영은 고개를 저어 보였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "그래도 간만에 이런 질문을 들으니 좋네요. 제가 사람이라는 걸 다시 실감하는 것 같은 기분이에요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "저는 회사원이었어요. 작은 규모의…… 회사에서 일을 하고 있었는데, 업무를 보던 도중에 세상이 이렇게 되어 버리고 말았죠.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "……그때 함께 일하던 동료 하나와 최근까지 함께 생존하고 있었어요. 그분은 얼마 전에 괴물의 손에 돌아가셨지만요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "내가 조의를 표하며 고개를 숙여 보이자 영은 굳은 낯으로 애써 미소를 지어 보이려고 했다. 얼굴에서 씁쓸한 기색을 모두 감출 수는 없었지만, 노력하려는 것이 보였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "뭐…… 그런 사정 때문에, 지금은 혼자 지내고 있는 생존자네요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": [
+          { "code": "D1-2", "print": "◾괴물에 대해 아는 것" },
+          { "code": "D1-3", "print": "◾지금 한국의 상황" },
+          { "code": "D1-4", "print": "◾더 묻고 싶은 것은 없다" }
+        ],
+        "option": true
+      }
+    ],
+    "D1-2": [
+      {
+        "text": "내가 괴물에 대해 아는 것은 단편적인 지식뿐이었다. 고작 해 봐야 방금 전에 목격했던 외형과 사람을 공격한다는 기본적인 정보 정도일까. 영에게 괴물에 대해 아는 것을 최대한 이야기해 달라고 부탁했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "영은 괴물을 상상하는 일만으로도 몸이 떨리는지 자신의 팔을 감싸 쥐고 몇 번이고 쓸어내렸다. 나는 그 모습에 공감하며 영이 말을 꺼낼 때까지 차분히 그를 기다려 주었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "……방금 보셨던 것처럼, 괴물은 오로지 학살만을 자행하는 생명체예요. 인간을 먹거나 다른 용도로 사용하는 것도 아니면서, 무차별적인 공격을 멈추지 않죠.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "그 괴물들에게는 화기도 냉병기도 제대로 듣지 않아요. 타격을 줄 수야 있다지만, 재생 능력이 무척 뛰어나서 어떤 공격이 들어가도 순식간에 몸을 재생해 버려요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "하지만 후각이나 청각은 크게 발달하지 않았으니, 시야만 잘 피한다면 도망치기는 어렵지 않아요. 지능 수준도 그렇게 높은 편이 아니고요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "아, 그리고 또, 주로 낮에 활동해서 밤에는 더 피해 다니기가 쉽고, 그렇지만…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "애써 목소리를 높여 이야기하던 영은 금세 풀이 죽은 듯 고개를 숙였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "……문제는, 정면으로 맞섰을 때 괴물을 물리칠 방법이 전무하다는 거겠죠…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": [
+          { "code": "D1-1", "print": "◾당신은 누구인지" },
+          { "code": "D1-3", "print": "◾지금 한국의 상황" },
+          { "code": "D1-4", "print": "◾더 묻고 싶은 것은 없다" }
+        ],
+        "option": true
+      }
+    ],
+    "D1-3": [
+      {
+        "text": "내가 살던 이 지역은 그래도 유동 인구가 꽤 되는 곳이었다. 몇 달만에 이렇게까지 휑한 폐허의 모습이 되어 버리리라고는 상상도 하지 못할 만큼. 그 많던 사람들은 모두 어디로 가 버린 걸까. 정부는 이때까지 뭘 하고 있었던 거지?",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "지역의 상황이 어떤지 묻자, 영은 이야기에 앞서 한숨을 길게 내쉬었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "지금 이곳의 상황이라……. 어디에서부터 어디까지 말씀드리는 게 좋을까요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "막막한 듯 허공을 더듬던 시선이 바닥을 향했다. 영은 한참 동안 말을 고르는 듯하다 신중하게 이야기를 시작했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "괴물이 나타나고, 통신이 먹통이 되어 버린 이후로 사람들은 모두 혼란에 빠졌어요. 아니, 고작 혼란이라고 말할 수 있는 정도가 아니었죠.",
+
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "말마따나 아비규환이었어요. 괴물에게 죽지 않기 위해 서로를 희생시키고, 혼란을 틈타 노략질하고…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "영은 잠시 숨을 멈췄다가, 괴로운 듯 미간을 찌푸렸다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "어떻게든 다른 지역으로 떠나고자 차에 올랐던 사람들은 모두 도로 위에서 죽음을 맞았죠. 그 후로는 누구도 마을 밖으로 벗어나려 들지 않았어요.",
+
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "지금은 남아 있는 인원이 아주 적어요. 제가 당신을 알아본 데에서 짐작하셨겠지만, 서로의 얼굴을 대강 다 파악하고 있을 정도예요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "무리를 지어 생활하는 사람들이 대다수인데, 아마 밖에서 지내다 보면 다른 사람들도 모두 만나 보실 수 있을 거예요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          { "code": "D1-1", "print": "◾당신은 누구인지" },
+          { "code": "D1-2", "print": "◾괴물에 대해 아는 것" },
+          { "code": "D1-4", "print": "◾더 묻고 싶은 것은 없다" }
+        ],
+        "option": true
+      }
+    ],
+    "D1-4": [
+      {
+        "text": "이제 더 궁금한 점은 없는 것 같다. 이 정도면 집에 틀어박혀 있는 동안 바깥이 어떻게 돌아갔는지 충분히 짐작할 만하니까. 영에게 감사를 표하자, 영은 이 정도쯤 아무것도 아니라며 웃어 보였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": [
+          {
+            "code": "C1",
+            "print": "그보다, 당신은 계속 혼자서 살아 오셨던 거니까, 지금은 같이 다닐 사람이 없으신 거죠?"
+          },
+          {
+            "code": "C2",
+            "print": "그보다, 당신은 정황으로 봐선 지금은 같이 다닐 사람이 없으신 거죠?"
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "수긍의 뜻으로 고개를 끄덕여 보였다. 영은 다행이라는 듯 밝아진 얼굴로 내 손을 맞잡았다. 훅 가까워진 거리에 옅은 피 냄새가 풍겨 왔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "사실, 그렇지 않아도 제가 동행을 구하던 중이었거든요. 이런 세상에서 혼자 살아남기란 쉬운 일이 아니니까요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "다른 사람들이 뭉쳐 다니는 무리가 여럿 있기야 하지만, 저는 많은 사람과 함께하는 단체 생활은 잘 맞지 않아서…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "혹시, 달리 할 일이 있는 게 아니시라면 저와 함께 다니시는 게 어떤가요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "나쁜 제안은 아닐 거예요. 정보도 공유하고, 위험을 감지하기도 쉽고, 서로 불침번도 서 줄 수 있고…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "영은 내 손을 놓아 주지 않을 것처럼 꼭 붙들고 간절하게 이야기했다. 하긴, 확실히 혼자 다녀서야 저 괴물을 상대로 살아남기란 불가능에 가까운 일로 보였다. 갑작스러운 제안에, 나는 영과…….",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": [
+          { "code": "E1", "print": "◾동행한다 " },
+          { "code": "E2", "print": "◾동행하지 않는다 " }
+        ],
+        "option": true
+      }
+    ],
+    "D2": [
+      {
+        "text": "굳이 상대에게 설명을 들을 것까지는 없을 것 같아, 담백하게 제안을 거절했다. 상대는 의아한 듯 눈을 동그랗게 떴다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "낯선 사람",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "하, 하지만, 괴물이나…… 그, 여기 상황에 대해서도 잘 모르지 않으세요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "저도 그렇게 유용한 정보를 많이 알고 있는 건 아니지만…… 뭐라도 알아 두면 도움이 되실 텐데요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": [
+          { "code": "D2-1", "print": "◾정말 없다 " },
+          { "code": "D2-2", "print": "◾물어보는 게 나을 것 같다" }
+        ],
+        "option": true
+      }
+    ],
+    "D2-1": [
+      {
+        "text": "상대에게 궁금한 점은 없다고 딱 잘라 이야기하자, 상대는 풀이 죽은 모습으로 물러섰다. 길고 부스스한 머리카락을 헤집으며 고민하는 모습을 보니, 처음 그를 마주했을 때 왜 그렇게까지 뻗친 머리를 하고 있었는지 이해가 갔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "낯선 사람",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "그런가요……. 그, 그러면, 제 이름이라도 알려드릴게요!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "최영이라고 해요. 성이 최, 이름이 영. 외자 이름이에요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "갑자기 들이대서 당황스러우셨을 거 알아요. 그게, 실은…… 도움을 드리려고 했던 게, 한 가지 부탁드릴 게 있어서였거든요…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "어쩐지 초면에 너무 호의적으로 나오더라니. 부탁을 말해 보라고 하자, 영은 냉큼 내게 다가와 내 손을 맞잡았다. 갑작스레 가까워진 거리감에 당황하며 손을 빼내려고 했지만, 붙들린 손은 쉽사리 떨어질 생각을 하지 않았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "혹시, 동행인이 필요하지 않으세요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "아무리 세상이 이렇다지만, 아니, 오히려 이렇기 때문에…… 혼자 다니는 건 너무 위험하잖아요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "당신에게도, 제게도 손해가 되는 제안은 아닐 거예요. 혼자보다는 둘이 괴물에 대처하기 쉽고, 불침번도 나눠서 설 수 있고요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "안 될까요? 불편하실까요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "영은 내 손을 놓아 주지 않을 것처럼 꼭 붙들고 간절하게 이야기했다. 하긴, 확실히 혼자 다녀서야 저 괴물을 상대로 살아남기란 불가능에 가까운 일로 보였다. 갑작스러운 제안에, 나는 영과…….",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          { "code": "E1", "print": "◾동행한다 " },
+          { "code": "E2", "print": "◾동행하지 않는다 " }
+        ],
+        "option": true
+      }
+    ],
+    "D2-2": [
+      {
+        "text": "상대의 말을 듣다 보니 나의 무지가 실감 났다. 아무래도 자질구레한 정보나마 들어 두는 편이 나을까. 말을 철회하고자 상대에게 다시 말을 붙이자, 상대는 조심스럽게 내 눈치를 봤다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "낯선 사람",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "혹시 마음이 바뀌셨나요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": [{ "code": "D1", "print": "◾묻고 싶은 게 있다" }],
+        "option": true
+      }
+    ],
+    "E1": [
+      {
+        "text": "영의 말마따나 동행이 있어서 나쁠 일은 없다는 생각이 들었다. 아직 바깥 생활에 대해 아는 것보다는 모르는 게 많으니까. 지식이 많은 동행인이 있다면 적응이 보다 수월해지겠지.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "동행을 수락하자, 영은 맞잡고 있던 내 손을 붕붕 흔들다가 놓으며 활짝 웃어 보였다. 얼굴 반절에 빡빡하게 감겨 있는 붕대가 입꼬리를 따라 당겨 올라갔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "다행이다. 거절당하면 어떻게 해야 하나 고민을 많이 했거든요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "동행을 잃은 뒤로 계속 혼자 다니던 참이었는데, 그렇게 버티기도 슬슬 한계여서요…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "영은 진심으로 동행이 기꺼운 듯 조잘거리며 자신의 지난 날들을 이야기했다. 얼굴 반쪽을 붕대로 감아 두었는데도 표정이 참 다채로운 사람이었다. 영이 겪었던 일들을 어느새 몰입해서 듣고 있자, 영은 머쓱한 듯 내 의사를 물어 왔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "너무 제 이야기만 하고 있는 것 같네요. 당신은 어떠세요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "앞으로 어떻게 하고 싶은지, 생각해 두신 바가 있으신가요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": [
+          { "code": "F1", "print": "◾안전한 장소를 찾고 싶다 " },
+          { "code": "F2", "print": "◾이 사태를 해결하고 싶다  " },
+          { "code": "F3", "print": "◾사람들을 돕고 싶다 " },
+          { "code": "F4", "print": "◾달리 없다   " }
+        ],
+        "option": true
+      }
+    ],
+    "E2": [
+      {
+        "text": "도움을 주겠다고 먼저 손을 뻗어 준 사람에게는 미안한 말이지만, 솔직히 영을 초면부터 신뢰하기는 어려웠다. 영이 간절하게 쥐고 있던 손을 뿌리치며 동행을 거절했다. 자고로 맺고 끊음은 언제나 확실히 해 두어야 하는 법이다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "영은 실망한 기색이 역력했지만, 싫은 소리를 하지 않고 내 거절을 받아들였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "괜찮아요. 저였더라도 초면에 동행을 요구하는 사람은 부담스러웠을 테니까요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "혹시라도 나중에 다시 만나게 된다면, 그때 또 이야기해 봐요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "다시 만날 일이 있을까. 동네 안에 사람이 어지간히 적은 모양이니 어려운 일이 아닐 것 같기는 했다. 그러자는 대답과 함께 나름대로 나쁘지 않은 분위기를 유지하며 각자의 길로 갈라서려던 중, 영이 생각났다는 듯이 나를 불러 세웠다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "저기, 헤어지기 전에 하나만 물어봐도 괜찮을까요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "당신은 앞으로 어떻게 할 생각이신가요? 뭔가 계획이라도 있으세요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": [
+          { "code": "F1", "print": "◾안전한 장소를 찾고 싶다 " },
+          { "code": "F2", "print": "◾이 사태를 해결하고 싶다  " },
+          { "code": "F3", "print": "◾사람들을 돕고 싶다 " },
+          { "code": "F4", "print": "◾달리 없다   " }
+        ],
+        "option": true
+      }
+    ],
+    "F1": [
+      {
+        "text": "우선적으로 내 안전을 보장받고 싶었다. 이전까지 집에서 그러했듯이, 안전한 장소를 찾아 사태가 끝날 때까지 기다려 볼 생각이었다. 영은 그 목표에 공감하기야 했지만, 태도는 회의적이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "안전한 장소를 찾고 싶다는 마음이야 이해하지만…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "아마도 그런 장소를 찾기는 힘들 거예요. 지금 남아 있는 사람들이 왜 떠돌이 생활을 하고 있겠어요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "어딘가 정착해서 살고 있는 무리가 없는지 물었지만, 영은 그렇게 살고 있는 사람은 아직 보지 못했다고 답했다. 새삼스럽게 내가 얼마나 운 좋게 집 안에 숨어 지내고 있었는지 실감이 났다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "내가 실망한 기색을 보이자, 영은 분위기를 띄우려는 듯 재차 내게 손을 내밀어 보였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "뭐, 그렇더라도 계속 돌아다니다 보면 사람 하나 정도 숨어 지낼 공간은 찾을 수 있지 않겠어요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          {
+            "code": "E1",
+            "print": "너무 낙담하지 말고, 앞으로 잘 부탁해요. "
+          },
+          {
+            "code": "E2",
+            "print": "너무 낙담하지 말고, 다음에 또 만나요."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": [
+          { "conditionalCode": "E1", "code": "G1", "print": "◾잘 부탁한다 " },
+          { "conditionalCode": "E2", "code": "G2", "print": "◾영과 작별한다 " }
+        ],
+        "option": true,
+        "condition": true
+      }
+    ],
+    "F2": [
+      {
+        "text": "나는 사태의 원인을 알고, 그것을 해결하고 싶다고 이야기했다. 아무것도 알지 못하는 상태로 이런 매일을 무력하게 견뎌 낼 수는 없는 일이었다. 그런 짓은 이미 방 안에서 충분히 겪어 오지 않았던가. 세상 밖으로 나온 이상, 더는 문제에서 회피만으로 해결해서는 안 됐다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "영은 내 말에 잠시 놀란 듯한 표정을 짓더니, 망설이듯 물었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "원인을 밝힌다고 해서…… 우리가 뭔가를 할 수 있을까요? 안전한 장소를 찾고 싶다는 마음이야 이해하지만…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "어쩌면, 앎에도 아무 일도 할 수 없는 스스로에게 더 절망하게 될지도 몰라요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "나는 무지의 절망보다 앎의 절망을 선택하고 싶다고 말했다. 그러자 영은 한참 동안이나 말이 없다가, 느리게 이야기했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "그래요, 노력해 봐요. 세상은 당신 같은 사람이 바꾸어 나가는 거겠죠.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "가라앉은 목소리가 무슨 감정을 의미하는가는 잘 읽어 낼 수 없었지만, 영은 직전보다 차분해진 얼굴로 내게 악수를 청하듯 손을 내밀었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": [
+          {
+            "code": "E1",
+            "print": "그럼, 같이 갈까요?"
+          },
+          {
+            "code": "E2",
+            "print": "그럼, 다시 만날 때까지 몸조심해요."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          { "conditionalCode": "E1", "code": "G1", "print": "◾잘 부탁한다 " },
+          { "conditionalCode": "E2", "code": "G2", "print": "◾영과 작별한다 " }
+        ],
+        "option": true,
+        "condition": true
+      }
+    ],
+    "F3": [
+      {
+        "text": "어딘가에는 나처럼 여전히 세상 물정을 모르고 살고 있는 사람도, 힘이 약하거나 장애가 있어서 살아남기 힘든 사람들도 존재하겠지. 나는 밖으로 나오게 된 이상, 이제부터는 그런 사람들을 돕고 싶다고 말했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "영은 생각이 많은 듯 한참 동안 바닥을 향해 고개를 숙이고 있었다. 길고 삐죽삐죽한 머리카락 탓에 영이 무슨 표정을 짓고 있는지는 전혀 보이지 않았다. 호흡 외에는 미동도 않는 어깨에 걱정이 되어 말을 붙여 보자, 영은 그제야 고개를 들고 실없이 웃어 보였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "죄송해요. 그게…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "……저도 계속 생각해 왔거든요. 사람들을 돕고 싶다고.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "그런 생각을 하면서 살아가는 건 정말 어려웠고…… 잘 되는 일보다는 실패한 일이 더 많았지만.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "그래도 계속 그런 마음을 품고 살아가다 보면 나아지는 일이 있겠죠?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "같이 힘내야겠네요, 우리.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "영은 내게 정식으로 악수를 청하듯 손을 내밀었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": [
+          {
+            "code": "E1",
+            "print": "앞으로 잘 부탁해요!"
+          },
+          {
+            "code": "E2",
+            "print": "인연이 된다면 또 만나요."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          { "conditionalCode": "E1", "code": "G1", "print": "◾잘 부탁한다 " },
+          { "conditionalCode": "E2", "code": "G2", "print": "◾영과 작별한다 " }
+        ],
+        "option": true,
+        "condition": true
+      }
+    ],
+    "F4": [
+      {
+        "text": "이제 막 세상을 알게 된 판에 앞으로의 일을 생각할 겨를이 있었을 리가. 영에게 지금은 하고 싶은 일을 딱히 특정하지 못하겠다고 답했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "주변을 좀 더 알아가야 할 것이고, 그보다 우선적으로 그 끔찍한 괴물들을 피해 살아남아야 하겠지. 영은 내 대답이 당연하다는 듯 고개를 끄덕였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "사실 그렇죠. 무엇을 이루고 싶다, 명확히 특정해서 살아가는 사람이 얼마나 있겠어요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "다들 자신의 하루하루를 지켜내는 데에 여념이 없는 세상이니까요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "살아만 있다면, 내일에 대해 고민할 시간은 아직 많겠죠. 너무 서두를 필요는 없을 거예요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "영은 말을 끝마치고는 내게 재차 악수를 청하듯 손을 내밀어 보였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": [
+          {
+            "code": "E1",
+            "print": "그럼, 같이 길을 찾아 볼까요?"
+          },
+          {
+            "code": "E2",
+            "print": "그럼, 다음에는 당신만의 길을 찾으셨기를 바라요."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          { "conditionalCode": "E1", "code": "G1", "print": "◾잘 부탁한다 " },
+          { "conditionalCode": "E2", "code": "G2", "print": "◾영과 작별한다 " }
+        ],
+        "option": true,
+        "condition": true
+      }
+    ],
+    "G1": [
+      {
+        "text": "영은 아까에 비해 조심스러워진 손길로 내 손을 잡고 굳게 두어 번 흔들었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "그럼, 이만 가 볼까요? 아까 괴물이 지나간 지도 꽤 되었으니, 아마 곧 비슷한 개체가 패거리로 몰려들 거예요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "아까와 같은 괴물이 패거리로 몰려다닌다니. 이 골목의 벽 하나 무너뜨리는 건 일도 아니겠지. 모골이 송연해지는 이야기에 몸을 잘게 떨자, 영은 나를 안심시키려는 듯 다독였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "영은 괴물의 시야를 가리기 위해 사람들이 세운 임시 가벽의 구조를 알려주며 길을 앞장섰다. 등 뒤에서 희미하게 들려오는 괴물의 괴성 소리가 메아리처럼 어두운 골목 안쪽을 울렸다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "정신 차리자. 골목으로 영을 따라 들어가며 내 뺨을 두어 차례 가볍게 쳤다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "어쨌든, 지금은 나아가야 할 때다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "code": "subnav1", "print": "◾다음으로" }],
+        "option": true
+      }
+    ],
+    "G2": [
+      {
+        "text": "영이 내민 손을 붙들어 악수했다. 영은 곧 괴물이 몰려들 테니 빨리 자리를 피하라고 이야기하며, 먼저 자리를 뜨는 순간까지 내게 근처에 세워진 가벽의 구조를 알려 주었다. 괴물의 움직임이 대체로 시각에 의존한다는 것을 이용하기 위해 생존자들이 세워 둔 임시 구조물이라고 했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "먼저 손을 흔들며 골목 안쪽으로 사라진 영의 뒷모습이 한참 동안 눈 안에 잔상으로 남았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "정신 차리자. 골목으로 걸어 들어가며 내 뺨을 두어 차례 가볍게 쳤다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "어쨌든, 지금은 나아가야 할 때다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "code": "subnav1", "print": "◾다음으로" }],
+        "option": true
+      }
+    ]
+  }
+]

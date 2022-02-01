@@ -1,0 +1,1522 @@
+[
+  {
+    "L0": [
+      {
+        "text": "슬슬 그 존재를 잊어 갈 때쯤, 세인이 준 무전기에서 잡음이 새어 나왔다. 또 무슨 소식이 있어 연락을 한 걸까. 주변을 확인한 뒤 듣고 있다는 답을 보내자, 내 이름을 부르는 세인의 목소리가 이어졌다. 저번처럼 시답잖은 잡담으로 말머리를 여는 화법이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "어이, 뉴 페이스! 이제 이렇게 부르기엔 좀 낡았나? 그동안 잘 지냈지? 죽지는 않았고?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "저번에 그, 있지. 내가 실종된다고 했던 사람들 있잖아? 그게 어쩌다 보니 근원지를 찾게 되어서 말이야.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "야, 나도 진짜 좋게좋게 다 착각이었고 실종된 줄 알았던 사람들은 잘 먹고 잘 살고 있더라, 얘기해 주고 싶었거든? 근데…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "이게 좀, 이야기가 딥해졌네.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "다음 이야기가 이어지기까지는 잠깐의 침묵이 있었다. 직후 너머로 들려 오는 세인의 목소리가 낮고 진중했다. 전에 들어 본 적 없는 무게감에 낯선 사람과 처음 대화를 나누고 있는 듯한 착각마저 일 정도였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "아무래도 그 근원지 쪽에 괴물의 발생과 관계된 큰 문제가 하나 있는 것 같다.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "외곽의 한 폐건물이야. 근처에 괴물들이 바글바글한 탓에, 뚫으려면 분산될 인원이 좀 필요할 것 같아. 우리 쪽 애들만으로는 수가 부족해서 선생도 힘을 보태 주기로 했어.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "반드시, 내가 데리고 간 사람은 누구도 죽지 않게 할 거야. 조금 다칠 수는 있겠지만…… 그것도 끝까지 책임질게. 약속해.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "너만 괜찮다면 동행해 줄 수 있겠어?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "세인은 이후로 답을 독촉하지 않으려는 듯 잠잠해졌다. 덕택에 나도 내 대답을 정리할 시간이 생겨 차근차근 생각해 볼 수 있었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "세인이 이야기한 건물에 진입하기를 성공한다면 무엇이 달라지는 걸까. 이 사태의 원인에 대한 실마리를 잡을 수 있을까? 어쩌면 기적적으로 세상을 되돌릴 방법을 찾아낼 수 있을지도. 하지만 실패한다면 그대로 개죽음을 당할지도 모르는 일이다. 나로서는 세인이 한 약속의 진위 여부조차 확실하게 알 수 없었으니까. 결국 나는…….",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          { "print": "◾이세인과 합류한다", "code": "L1" },
+          { "print": "◾제안을 거절한다", "code": "L2" }
+        ],
+        "option": true
+      }
+    ],
+
+    "L1": [
+      {
+        "text": "그곳에 무엇이 있든, 이대로 가만히 앉아서 남들의 도움만을 기다리는 짓은 더 이상 하고 싶지 않았다. 어차피 목적 없이 생존만을 위해 홀로 살아가고 있는 나날. 이대로 고인 채 썩어 버리기보다는 한 발자국이라도 나아가고 싶었다. 세인에게 합류를 승락하는 답을 전하자 무전기 너머에서 안심한 듯한 목소리가 들려 왔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "잘 생각했어! 금방 조지고 들어가서 내용물이나 까 보자고.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "주변 괴물들은 대강 다른 쪽으로 몰아 놨으니까, 병원 쪽으로 돌아서 공영 주차장으로 와.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "오는 길에 보이는 생존자들도 같이 물어 오면 더 좋고. 기다린다?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "세인의 말을 따라 머릿속에서 이동 경로를 한번 그려 보고는 고개를 끄덕였다. 끄덕인 직후에 무전으로 전달되는 것은 목소리뿐임을 깨닫고 약간 민망해지기는 했지만.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾주차장으로 향한다", "code": "L1-1" }],
+        "option": true
+      }
+    ],
+    "L1-1": [
+      {
+        "text": "마음을 다잡고 주차장으로 향하는 길, 멀리서는 괴물들을 유인하고 있는 건지 폭죽 소리 따위가 펑펑 시끄럽게 울려 댔다. 아무리 전략적으로 움직인다고 하더라도 저렇게 괴물을 몰아 대면 위험할 텐데. 군대도 어찌하지 못했던 것들이 아니던가.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "걱정 반, 기대 반으로 주차장에 도착하자 즐비한 자동차의 시체 가운데 눈에 띄는 사람들이 있었다. 세인이 모아 둔 무리였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "나와 세인, 상수를 포함한 생존자들이 스무 명 가량 모여 있었다. 모두 이런 환경 속에서 구르고 뒹굴어 왔다기에는 제법 멀끔한 청장년들이었다. 멀끔하다는 말인즉슨, 사지가 성하고 크게 찢어지거나 날아간 구석이 없어 보인다는 뜻이다. 세상이 이렇게 되고 난 후로 이 정도의 인원을 한 자리에서 보는 건 처음이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "모여 있는 생존자들의 옆으로는 일부러 모아 둔 것 같은 오토바이가 줄지어 서 있었다. 설마 저걸 타고 이동하는 건가? 괴물에게 표적이 되기 쉬운 소음과 크기 탓에, 운전은 금기시되고 있다고 들었는데. 지역을 벗어나려 차에 올랐던 사람들이 차와 함께 치즈처럼 죽죽 찢어졌다던가.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "우선은 세인에게 말을 걸어 보는 게 먼저겠지. 어쨌든 이미 합류하기로 결정한 이상, 치즈가 되든 으깬 감자가 되든 도로 무를 수도 없는 일이지 않나.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾세인에게 말을 건다", "code": "L1-2" }],
+        "option": true
+      }
+    ],
+    "L1-2": [
+      {
+        "text": "세인은 오토바이 헬멧을 옆구리에 끼고 다른 사람들과 대화를 나누고 있었다. 내가 다가가 알은체하자 긴장감이라고는 조금도 없는 낯으로 빙글빙글 웃어 보였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "아, 우리 뉴 페이스 왔네! 물어보는 걸 깜빡했는데, 멀미는 안 하지?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "면허는 있고? 없나? 일단 장비부터 써라. 민정아! 여기 헬멧 하나만, 오, 땡큐. 자, 받아. 헬멧 쓰는 법은 알지?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "세인은 제 할 말만 우다다 뱉어 내며 낡은 헬멧 하나를 내 품에 냅다 안겨 주었다. 황당한 얼굴로 계획은 알아야 하지 않겠느냐 말하자, 그제야 자세한 설명을 들을 수 있었다. 세인의 곁에 있는 사람들은 그런 세인의 모습에 익숙한 듯 대신 사과를 건네 왔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "팀을 둘로 나눌 거야. 교란을 맡을 팀과 침입을 맡을 팀. 뭐, 이것만 들어도 짐작 가지? 곡예 운전 한번 해 보자고. 쫙 가른 다음에, 돌진!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "그 덩어리들은 무식하게 신체 능력만 뛰어난 놈들이니까, 우리가 동선만 잘 짜 놓으면 잡힐 일은 없어. 무엇보다…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "무슨 이유에서인지, 그놈들은 절대 연구소 안쪽 경계로 들어가지 않아. 일단 길을 뚫어 놓기만 하면 승리는 따 놓은 당상이지. 뭐, 이건 그 연구소에 들어가려고 하는 제일 큰 이유이기도 하고.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "이제 와서 너한테 동선 주입을 시킬 시간은 없으니, 네 포지션은 자동으로 침입 팀! 참고로 나도 침입 팀 쪽이야. 믿음직하지? 내 뒷자리에 탈래?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          { "print": "◾그러겠다", "code": "M1" },
+          { "print": "◾사양하겠다", "code": "M2" }
+        ],
+        "option": true
+      }
+    ],
+    "M1": [
+      {
+        "text": "세인의 가벼운 모습이 영 미덥지 못하기야 했지만, 그래도 그는 이 작전의 중심부에 있는 인물이 아니던가. 가까이 있어서 나쁠 건 없겠지. 그러겠다고 답하자 세인은 3초 간의 정적 후 웃음을 터뜨리며, 옆에 서 있는 사람들에게 “봤냐? 봤냐?”를 연발했다. 그 이유를 대강 짐작할 수 있을 것 같아 찜찜할 따름이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "교란 팀을 맡은 사람들이 마지막으로 동선을 점검하며 대화를 나누고 있을 때, 침입 팀은 몸을 사리라는 말 외에는 더 전달받은 사항이 없었다. 그 폐건물 안에 뭐가 있을지를 아는 사람은 아무도 없었으니까. 어쩌면 들어서자마자 괴물보다 더한 걸 맞닥뜨리게 되거나 죽을지도 모르지.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "앉아서 죽나 서서 죽나 똑같다. 두려워하지 말자. 스스로를 다잡으며 세인이 떠넘긴 헬멧을 머리에 뒤집어 썼다. 어디서 굴러다니던 헬멧을 주워 온 탓인지 내 머리보다는 살짝 헐겁고, 얼굴을 가리는 플라스틱엔 금이 가 있는 헬멧이었다. 그렇더라도 한 겹 장비를 착용하고 나니 정말 나서게 되는구나, 실감이 들었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "내 앞자리에 앉아 있는 세인이 출발 신호를 보내자 오토바이에 일제히 시동이 걸렸다. 오래간만에 듣는 배기음이 낯설게 심장을 두드렸다. 몸을 울리는 진동에 허한 속이 메슥거리기 시작했다. 이것이 두려움 탓일지, 기대감 탓일지는 결과가 나온 뒤에 확신할 수 있으리라.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "가자, 미지를 마주하러.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾출발한다!", "code": "M1-a" }],
+        "option": true
+      }
+    ],
+    "M1-a": [
+      {
+        "text": "온몸에 와 닿는 속도감이 상쾌했다. 어쩌면 지금 느끼고 있는 공기가 생애 마지막 숨일지도 모른다는 걸 알면서도, 이런 상황만 아니었더라면 저도 모르게 탄성을 내질렀을 것만 같았다. 이래서 사람들이 목숨을 걸고 바이크를 즐기는 걸까. 헬멧 아래를 스치는 바람에 다 정리하지 못한 뒷머리가 목덜미를 간지럽히며 흩날렸다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "시야를 스쳐 가는 불탄 건물의 잔영. 장례조차 치르지 못하고 방치된 시신들의 그림자. 세상이 한 점으로 모이는 듯한 착각 속, 멀리서 괴물의 괴성이 들려 온다, 아니, 먼 곳이 아닌 가까운 위치다. 점점 더 가까워지고 있었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "길 끝에 드러나 보이는 것은 넓은 부지였다. 한때 누군가의 사유지로서 출입을 철저하게 통제했던 곳인 듯, 구겨지듯 쓰러져 있는 펜스에 섬칫한 철조망이 둘둘 휘감겨 있었다. 오토바이의 바퀴가 빛바랜 출입 통제 구역 팻말을 즈려밟고 나아간다. 피 냄새가 정신을 아득하게 했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "그리고, 직전까지의 쾌감은 곧장 공포로 뒤집혔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "시야가 붉었다. 부지를 가득 메운 괴물이 인간의 냄새를 맡고 돌진해 왔다. 세인의 목소리가 괴성에 묻혀 제대로 들리지도 않았다. 여태껏 내가 생존하며 마주쳐 온 모든 괴물의 수를 합쳐 봐도, 이곳을 떠도는 괴물의 수를 넘지 못할 것 같았다. 당황하지 마, 누군가의 비명 같은 목소리가 귓가를 울렸다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "오토바이 무리가 갈라선다. 괴물은 뒤쫓는다. 내가 핸들을 잡지 않은 것이 천만다행이었다. 그랬더라면 지금 당장이라도 뒤돌아 이들을 버리고 달아나려 들었을 테니까. 흔들리는 시야, 흔들리는 몸. 세인의 허리를 붙들어 안은 팔에 힘이 들어갔다. 두려움에 눈을 감아 버리자 상황이 어떻게 흘러가는지를 알 수 없었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "숨이 막혔다. 창 하나, 방패 하나 없이 아비규환의 전쟁터 한가운데에 내던져진 것만 같았다. 헬멧을 뚫고 너머 세인의 심장 소리가 들린다. 이대로 기절해 버리는 건 아닐까. 머리가 빙글빙글 돌기 시작할 무렵의 일이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "오토바이가 브레이크를 밟으며 나와 세인을 바닥으로 함께 튕겨내 버린 것은.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾으윽…….", "code": "M1-b" }],
+        "option": true
+      }
+    ],
+    "M1-b": [
+      {
+        "text": "브레이크를 밟기 직전에 속력을 줄였던 건지, 다행스럽게도 내동댕이쳐진 세인과 내 몸이 그대로 바닥에 갈려 버리는 불상사는 일어나지 않았다. 그것과 별개로, 온몸은 욱신거리고 헬멧 안에서는 쨍한 이명이 비명과 괴성을 동시에 먹어 들어갔지만.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "일어나, 당장!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "팔뚝을 우악스럽게 잡아채며 외치는 세인의 목소리가 정신을 깨웠다. 무슨 일이 있었던 거지. 나는 지금 뭘 하고 있지? 어질거리는 정신을 다잡지 못하고 있자, 등 뒤에서 누군가가 내 몸을 번쩍 안아들었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "지, 지금 움직이셔야 합니다. 지금뿐이에요!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "사람 하나를 품에 안고도 성큼성큼 내달리는 상수의 호흡이 불규칙하게 흔들렸다. 상수의 어깨 너머로 보이는 풍경이 익숙하다. 아니 낯설다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "죽은 사람들, 뜯겨 나간 사람들의 시신, 직전까지 웃으며 세인을 타박하던, 상수의 곁에서 화기애애하게 수다를 떨던…….",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "누구도 죽지 않게 할 거야, 단언하던 무전 너머 세인의 목소리가 떠올랐다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "모두가 죽었다. 나와 이들을 제외한 모두가.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾…….", "code": "M1-c" }],
+        "option": true
+      }
+    ],
+    "M1-c": [
+      {
+        "text": "폐건물 안으로 들어서자, 세인이 말한 대로 괴물들은 더 이상 우리를 추적하려 들지 않았다. 건물 바깥의 풍경은 여전히 적나라하게 눈에 들어왔으나 꼭 우리만이 한 겹 다른 세상에 유리되어 있는 것 같았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "상수가 품에서 나를 내렸다. 눈물이 소리도 없이 그의 얼굴을 뒤덮고 있었다. 세인은 분위기를 환기할 만한 어떤 농담도, 장난도 꺼내 놓지 않았다. 뒤늦게 헬멧을 벗고 고개 들어 그의 표정을 확인하자, 세인은 분노하고 있었다. 악에 받친 듯 이를 꽉 악문 턱이 바르르 떨렸다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "……아니었어. 이 정도가 아니었다고……. 이렇게 많은 수의 괴물이 대체 어디에서 나타난 거지?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "어제만 해도 분명 수가 훨씬 적었는데. 이것들은 어디에서 나타나서…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "자신의 손에 얼굴을 묻은 세인이 표정을 감추고 분을 삭였다. 상수는 눈물을 멈추지 못하고 자리에 주저앉은 채 꺽꺽 울음을 삼키기 시작했다. 그들이 아니라 자기가 죽었어야 했다고, 그들을 구했어야 했다고 중얼거리는 목소리가 옅었다. 그러나 상수 역시 알고 있겠지. 누구도 저 지옥 속에서 타인을 구해 낼 수는 없었다는 걸.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          { "print": "◾침묵을 유지한다", "code": "M1-d1" },
+          { "print": "◾나아가야 한다", "code": "M1-d2" }
+        ],
+        "option": true
+      }
+    ],
+    "M1-d1": [
+      {
+        "text": "나 역시도 두 사람과 상태가 크게 다르지는 않았다. 참담한 심정에 말을 잇지 못하고 입을 다물었다. 한참 동안 무거운 정적이 세 사람 사이를 맴돌았다. 우리는 실패했다. 살아가기 위해 부딪힌 벽 앞에서 모두를 잃고 말았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "먼저 입을 뗀 것은 상수였다. 잔뜩 젖은 목소리가 형편없이 떨리며 덜덜 새어나왔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "이, 이, 이제, 어, 어떻게 하지요. 우리는, 어떻게 해야…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "……미안해요, 선생. 내 잘못이에요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "내가 오만했어요. 내 능력으로 사람들을 구할 수 있을 거라고 생각했어. ……살릴 수 있는 사람들을 살려내겠다며 선생을 그렇게 몰아세웠는데, 결과는 이건가.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "돌아갈 수는 없겠지. 오토바이도 내던지고 들어왔는데, 바깥이 저렇게 되어 버렸잖아. 나갈 방법이 어디 있겠어.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "세인의 헛웃음이 어두운 복도 속에서 나지막했다. 건물에는 전등이 없었다. 사람의 비명 소리가 멎었다. 괴물들의 괴성만이 부딪히며 울릴 뿐. 수십 겹이 겹쳐 나는 괴성은 하늘이 갈라지는 소리 같기도, 뼈를 뚫을 빗소리 같기도 했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "어차피 갇혀 죽게 된 이상…… 가 봐야지. 뭐라도 찾아서.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "……가야지요. 예, 가야, 가야겠지요…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "침체된 분위기 속 고개를 든다. 건물은 특이하게도 입구에서부터 좌우로 넓은 복도가 뻗어 있었다. 세인은 왼쪽 복도로, 상수는 오른쪽 복도로 향해 보기로 했다. 나는 어느 쪽으로 가 보는 것이 좋을까.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          { "print": "◾왼쪽 복도", "code": "M1-e1" },
+          { "print": "◾오른쪽 복도", "code": "M1-e2" }
+        ],
+        "option": true
+      }
+    ],
+    "M1-e1": [
+      {
+        "text": "세인과 함께 왼쪽 복도로 향하기로 했다. 상수와 갈라져서 걷기 시작하자 발걸음 소리가 자박자박 울렸다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "복도의 좌측에는 바깥을 향해 창문이 나 있었고, 우측에는 시멘트가 칠해진 민무늬 벽만이 복도를 따라 죽 뻗어 있었다. 벽을 더듬거리며 걸었으나 별다른 특징이 보이는 것 같지는 않았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "복도의 끝에 다다르자 모퉁이에서 오른쪽으로 꺾인 복도가 다시 앞을 향해 일직선으로 뻗어 있었다. 그 복도를 따라 걷자 또 다시 오른쪽에서 일직선. 그리고 그 복도의 끝에는 벽이 하나 세워져 있었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "……이렇게 생긴 거라면…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "중얼거리던 세인은 벽을 통통 두드려 보더니, 알 만하다는 듯 나를 뒤로 물러서게 했다. 그 직후였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "쾅, 쾅, 쾅, 세인이 복도 끝의 벽을 발로 걷어차기 시작했다. 거의 화풀이에 가까운 발길질이었다. 세인이 발길질을 거듭할 때마다 천장에서 석면 가루 같은 것이 풀풀 날렸다. 소매로 입을 막고 기침을 삼키고 있자, 이내 얼마 가지 않아 벽면이 우드득 소리를 내며 부서져 내렸다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "뻥 뚫린 벽의 단면은 나무였다. 가운데에는 지하로 내려갈 수 있는 계단이 자리하고 있었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "그리고 그곳에서 우리가 마주한 것은…….",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "……저, ……이, 이쪽에는 문이 있었는데요. 잠겨 있지도 않았는데…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "몸이 좋으면 머리가 고생하지 않는다는 교훈이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾계단을 내려간다", "code": "M1-f" }],
+        "option": true
+      }
+    ],
+    "M1-f": [
+      {
+        "text": "잠시간의 논의 끝에 세인이 맨 앞, 내가 중간, 상수가 뒤를 맡아 계단을 내려가기로 했다. 바깥 복도와 마찬가지로 조명 하나 달려 있지 않은 계단은 내려갈수록 완전한 암흑에 잠겨 갔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "지하 특유의 습하고 쿰쿰한 공기가 입술에 달라붙었다. 우리는 벽을 짚고 서로의 어깨를 더듬으며 느릿하게 아래로, 아래로 향했다. 이 지하 계단은 어디까지 내려가는 걸까. 왜 이런 곳에 숨겨져 있었고, 어째서 괴물들이 출입할 수 없는 걸까.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "의문 속에서 세인이 걸음을 멈춘 것은 한순간이었다. 우리가 계단으로 들어왔던 입구가 까마득해져 보이지 않게 되어 버렸을 무렵.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "여기가 끝인가 본데. 문이 하나 있어. 잠겨 있지는…… 않은 것 같고.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "삼류 영화 같구만. 이걸 열게 되면 미치광이 과학자의 실험실이 나타나는 건가.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "조심하세요, 이세인 씨. 이세인 씨까지 다치시면…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "이 아저씨는 걱정도 팔자야. 내가 어디 가서 얻어맞고 다니는 거 봤어요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "아까보다는 훨씬 풀어진 듯한 농담이 오갔지만, 분위기가 완화되었다기보다는 팽팽해진 긴장감을 감추기 위한 것 같았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          { "print": "◾문을 열자", "code": "M1-g1" },
+          { "print": "◾조금 더 생각해 보자", "code": "M1-g2" }
+        ],
+        "option": true
+      }
+    ],
+    "M1-g1": [
+      {
+        "text": "더 지체해 봤자 달라질 건 없겠지. 물러설 곳도, 더 잃을 것도 남아 있지 않았으니까. 내가 동의의 표시를 해 보이자, 세인이 심호흡을 하는 소리와 함께 문고리를 잘각 쥐는 소리가 들려 왔다. 내 어깨 위에 놓인 상수의 손이 축축했다. 하나, 둘, 셋, 숫자를 세는 여유 따위는 없었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "세인이 문을 세게 밀자, 뻑뻑하게 녹슨 듯한 경첩이 음산한 소리를 내며 열렸다. 공기 중을 떠도는 인공적인 쇳내가 차갑게 폐를 파고든다. 갑작스레 닥쳐 든 빛에 눈이 아려 와 눈살을 찌푸리며 손차양을 했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "흐린 시야 속에서 서서히 형태를 되찾는 너머의 모습에, 전신을 덮쳐 온 것은 거대한 충격이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾당신은…….", "code": "M1-h" }],
+        "option": true
+      }
+    ],
+    "M1-h": [
+      {
+        "text": "당신이 왜 여기에?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "누가 먼저 외쳤을까. 누구라고 할 것 없이 높아진 목소리가 쨍하게 귀를 찔러 왔다. 가장 먼저 행동에 나선 건 세인이었다. 붙잡을 틈도 없이 뛰쳐나간 걸음걸음에 가득 분노가 눌러 담겨 있었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "……너, 이 빌어먹을 새끼. 네가 무슨 수로 이곳에 있어? 이 세 명을 들이자고 우리 애들 몇이 죽었는데, 네가 어떻게!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "이, 이세인 씨! 진정하세요! 이, 이건…… 설명을…… 들어, 들어 봐야.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "김상수. 지금 상황 파악이 안 돼? 그래! 어쩐지 수상했어, 서한미랑 너 말이야. 어쩐지 빌어먹게도 박식하다 싶었지. 이런 거였냐?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "대답해, 최영!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "세인의 손아귀에 붙들린 영의 몸이 힘없이 흔들렸다. 온몸이 피범벅이었다. 그렇잖아도 항상 엉망으로 뻗치고 헝클어져 있던 머리칼이 피에 젖어 마구잡이로 엉켜 있었다. 영의 손아귀에서 메스가 떨어져 바닥에 찰그랑 부딪혔다. 직전까지 손에 칼날을 꽉 쥐고 있었던 건지, 손바닥을 가르고 뚝뚝 흘러내리는 핏줄기가 선명했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "그러나 그 모든 것에 앞서 시선을 사로잡는 것이 있었다. 영의 얼굴이었다. 항상 붕대에 가려져 반쪽은 보이지 않던, 불완전한 얼굴. 그 붕대가 풀어헤쳐진 채였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "안쪽에 자리한 영의 피부는 꼭 괴물의 것처럼 기괴하게 부풀어 짓물러 있었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          { "print": "◾영을 다그친다", "code": "M1-i1" },
+          { "print": "◾상황을 중재한다", "code": "M1-i2" }
+        ],
+        "option": true
+      }
+    ],
+    "M1-i1": [
+      {
+        "text": "상수는 설명을 들어야 한다고 이야기했지만, 내 의견은 세인과 같았다. 이 상황을 이성적으로 이해하고 설명을 듣는 것이 가능하겠는가.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "지하는 조명이 환한 연구실이었다. 무엇인지 알지도 못할 만한 설비들이 정연하게 늘어서, 넓은 지하 공간을 가득 채우고 있었다. 설비 가운데 단연 눈에 띄는 것은 중앙의 거대한 기기였다. 푸른 빛이 도는 거대한 기기의 유리 관 안에 들어가 있는 것들은 사람이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "아니, 정확히는 우리가 직전에 마주쳤던 그 괴물로, 변화하고 있는 사람.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "야, 진짜 돌겠네. 미치광이 과학자, 뭔, 농담도 못 하겠어? 요즘 영화도 이렇게 쓰면 욕 먹는 거 몰라?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "대가리를 으깨 버리기 전에 잘 대답하는 게 좋을 거야. 네가 그래 왔냐?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "이세인 씨…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "세인을 말리기 위해 다가서는 상수를 뒤로 밀며, 세인의 편에 서서 함께 영을 다그쳤다. 여기에서 대체 무슨 일이 있었고, 영은 왜 이런 꼴을 하고 있는지. 영은 말없이 눈물을 뚝뚝 흘리며 세인의 손아귀에서 흔들리기만을 반복했다. 그가 입을 연 것은 한참의 시간이 흐른 뒤였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾영의 이야기를 듣는다", "code": "M1-j" }],
+        "option": true
+      }
+    ],
+    "M1-j": [
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "모, 모두를 더, 행복하게 만들고 싶었어요……. 나는 정말, 정말 노력했는데.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "흐느끼며 자신의 손에 얼굴을 묻어 버린 영의 모습에 세인이 질린다는 듯 한 발자국 물러섰다. 영은 비틀비틀 주저앉은 채로 느릿한 이야기를 계속했다. 계속되는 이야기는 충격의 연속 그 자체였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "……강화 인간 프로젝트였어요. 우리는 사람들의 삶을 좀 더 행복하게 만들어 주고 싶었어요. 가난하고 소외된 사람들을 더 이상 굶주림에 시달리지 않게 만들어 주고 싶었다고요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "처음의 실험 대상은 우리였어요. 모든 게 순조로워 보였죠. ……두 차례의 임상에서 우리는 약물이 성공적으로 사람의 몸을 강화시키는 걸 확인했어요. 부작용이라고 해 봤자, 두통이나 근육통 정도의 경미한 증상뿐이었어요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "횡설수설 이어지는 영의 이야기에 세인이 목을 좌우로 꺾으며 화를 짓눌러 참듯 이야기했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "미친놈들은 항상 혀가 길어. 악당네 사연팔이는 그만두고 본론이나 말하지?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "그래서, 저걸 퍼뜨린 사람들이 너희란 거잖아.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "……나, 저, ……그러니까, 우리는 아니었어요. 우리는…… 우리는 반대를 했었단 말이에요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [{ "print": "◾반대라고?", "code": "M1-k" }],
+        "option": true
+      }
+    ],
+    "M1-k": [
+      {
+        "text": "나도 모르게 되물은 이야기에 영은 천천히 고개를 끄덕였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "……첫 번째 실험군이 괴물로 변화한 건 이미 대중을 상대로 임상이 시행되고 있을 때였어요. 조치를 취할 틈도 없이, 사태는 시작됐죠.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "저와 일부 연구원들은 실험을 중지해야 한다고 했어요. 이대로는 모두가 죽어 버릴 테니까…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "하, 하지만, 수석은 끝을 보고 싶어 했죠. 연구를 포기하는 척, 물러서는 척, 우리 모두에게 차례로 약물을 주사하기 시작했어요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "……그렇게 모두가 하나둘씩 괴물로 변해 가고, 수석은 실험을 멈추지 않고……. 나는 한미의 도움으로 실험실에서 도망칠 수 있었어요. 그런데, 한미도 결국 죽어 버리고 말아서…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "……이, 이제라도 책임지고 있잖아요! 여기에 와 있다고요. 수석을 죽이고, 최소한 이 빌어먹을 실험이 끝나게 하려고요!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "그러니까 혀가 길다고! 네가 그렇게 하면, 이전에 저질렀던 짓이 사라져?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "그 실험에 가담하고 살아남아서, 여태껏 어떤 말도 하지 않고 우리를 기만했던 일이 없어지냐고!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "자, 잠깐만요, 이세인 씨…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "상수가 그대로 영의 목을 비틀어 버릴 기세로 다가가던 세인의 소맷자락을 붙들었다. 이거 놔, 신경질적인 세인의 목소리가 지하를 쩌렁쩌렁하게 울렸으나 상수 역시도 물러날 생각이 없어 보였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "……그렇다면 어떻게…… 영 씨는 완전히 괴물로 변화하지 않은 겁니까?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "그 질문에 멈칫 굳은 것은 나뿐만이 아니었다. 세인, 상수, 영, 그리고 나 사이에 기묘한 침묵이 흐르기 시작했다. 입을 열면 혀를 베이게 될 것만 같은 그런 침묵. 이내 영이 이를 악물고 답했다. 칼날에 베인 손바닥을 꽉 틀어쥐고도 아프지 않은 것처럼 보였다. ……아니, 정말 아프지 않은 건가? 손에서 흐르고 있던 피는 언제 멎은 거지?",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "……제, 제가, 하, 항체 보유자이기 때문에요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "괴물은 저를 공격하지 않아요. 즉사할 만한 상처가 아니라면 죽지도 못해요. 어쩌면, 네, 그 프로젝트의 완성작은 저인 거겠죠.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [{ "print": "◾그럴 수가…….", "code": "M1-l" }],
+        "option": true
+      }
+    ],
+    "M1-l": [
+      {
+        "text": "상황이 여기에서 더 나빠질 수가 있는 걸까. 서로 간에 한 마디 말 없이도 시끄러운 목소리들이 머릿속을 가득 메웠다. 영이 항체다. 영을 데리고 실험을 한다면 이 사태를 종식시킬 수도 있어. 좀비 영화에서도 으레 그런 장면이 나오지 않던가? 항체 보유자의 피로 세상을 평화롭게 만드는, 그런 해피 엔딩의 영화들 말이다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "그걸 안 들키려고 죽어라고 동행을 구했구만?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "세인이 성큼성큼 다가가 영의 멱살을 쥐어 올렸다. 한 손 악력만으로도 끌려 올라간 영의 몸이 고통스러운 듯 작게 비틀렸다. 호흡을 잇기 위해 쌕쌕거리는 숨소리가 괴로워 보였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "야, 이 새끼를 써서 저 괴물들을 전부 갈아 버리자. 여기서 계속되는 괴물 재생산도 멈췄다니까, 더 이상 미친 듯한 물량전은 없겠지.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "괴물들이 이 자식은 공격하지 않는다면서? 그럼 얘를 뜯어서 연구하다 보면 그것들을 공격해 없애 버릴 방법이 생길 거 아니야. 선제 공격을 당하지만 않는다면 가능해. 그 괴물들이 재생 능력이 뛰어나건 말건, 그냥 가루가 될 때까지 찢어 죽이면 그만이라고.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "아, 안 됩니다, 그런 건!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "제발 그만 좀 말려 봐! 아저씨 징징거림 들어 줄 여유 같은 건 없어!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "몇 번을 내쳐도 끈질기게 달라붙는 상수의 움직임에 세인이 결국 벌컥 화를 냈다. 지금 당장 눈에 보이는 것이 없어 보였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "아니에요. 아닙니다. 이번에는 그런 게 아니에요. 여, 영 씨의 말이 맞다면…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "잘 생각해야 합니다. 그 괴물들은…… 그들은…… 그들도…… 희생된 피해자가 아닙니까.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "시, 실험에 동원되어 자아를 잃게 되어 버린…… 그저 피해자일 뿐입니다. 그들을 전부 죽일 수는 없어요. 되돌려 놓아야 합니다. 사, 사람으로요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "영 씨의 협조가 있다면, 충분히 가능한…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "저 빌어먹을 새끼들이 우리 사람들을 얼마나 쳐 죽였는지 보고도 그런 말이 나와!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "결국 대화는 상수와 세인의 공방으로 이어졌다. 모든 괴물을 죽여 버려야 한다는 세인과, 그들을 인간으로 되돌려 놓아야 한다는 상수. 그리고 그 모든 선택지 가운데에 반영되지 않은 영의 의견까지.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "어떻게 해야 할까? 무엇이 옳고, 무엇이 틀린 선택일까. 어느 의견도 부당한 의견이 아니었다. 지금껏 내가 바깥에서 마주해 온 모든 선택지처럼. 하지만 고민의 순간, 우리에게 선택을 포기한다는 권리 따위는 있었던 적이 없었으므로…….",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "선택해야 할 때가 왔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          { "print": "◾세인의 편을 든다", "code": "M1-m1" },
+          { "print": "◾상수의 편을 든다", "code": "M1-m2" },
+          { "print": "◾다시 영의 이야기를 듣는다", "code": "M1-m3" }
+        ],
+        "option": true
+      }
+    ],
+    "M1-m1": [
+      {
+        "text": "결국 내가 선택한 것은 세인의 결정이었다. 괴물들이 아무리 한때 인간이었다고 한들, 그들이 우리의 일상을 부수고 빼앗은 사실에는 변함이 없었다. 게다가 그들을 사람으로 되돌린다고 한들 그것이 완전하겠는가. 그 과정까지 더 피해를 입을 다른 사람들의 사정은 누가 봐 줄 수 있지?",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "상수는 자신의 의견을 몇 차례 더 주장했으나, 이 자리에서 발언권을 가진 셋 중 과반의 의견이 이미 기운 뒤였다. 그는 서러운 눈물을 멈추지 않고 흘려 댔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "영은 고개를 숙인 채 침묵했다. 자신에게 내려진 처분을 받아들이는 수밖에 없다는 것을 깨닫고 체념한 것 같았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "세인은 자신의 편을 들어 준 나를 가만히 바라보다가, 나를 품에 꽉 안고 고맙다고 중얼거렸다. 항상 약한 모습을 보인 적 없었던 어깨가 가늘게 떨리고 있었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          { "print": "END5 트루 엔딩: 살아남은 사람들", "code": "end5" }
+        ],
+        "option": true
+      }
+    ],
+    "M1-m2": [
+      {
+        "text": "결국 내가 선택한 것은 상수의 결정이었다. 괴물들이 아무리 우리에게 피해를 주고 사람들의 목숨을 앗아 갔든 간에, 그들도 결국 자의로 타자를 해한 것이 아닌 피해자일 뿐이었다. 잘못을 한 것은 이 실험을 진행한 연구원들일진대, 우리가 왜 서로를 해하고 증오해야 할까. 괴물들을 사람으로 되돌려 살리고 싶었다. 그게 내 마지막 결정이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "세인은 크게 화를 내다가 도무지 용납할 수 없다는 듯 영을 내팽겨쳐 버린 뒤 홀로 계단을 올라갔다. 상수가 소리쳐 그를 부르고 애원하고 매달렸으나, 세인이 다시 우리에게로 돌아오는 일은 없었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "영은 고개를 숙인 채 침묵했다. 자신에게 내려진 처분을 받아들이는 수밖에 없다는 것을 깨닫고 체념한 것 같았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "상수는 사라져 버린 세인의 뒷모습에 서럽게 울면서도 다행이라는 이야기를 계속해서 중얼거리고 있었다. 그 많은 사람들을 구할 수 있게 되어서 다행이라고. 모두가 살 수 있는 길이 있어서 다행이라고.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          { "print": "END4 트루 엔딩: 살아가는 사람들", "code": "end5" }
+        ],
+        "option": true
+      }
+    ],
+    "M1-m3": [
+      {
+        "text": "세인의 의견도, 상수의 의견도 타당하기는 했으나 나는 영의 이야기가 듣고 싶었다. 만약 영을 사용해서 괴물을 없애거나 되돌리게 된다면, 그 과정에서 영은 계속해서 실험에 동원될 것이 아닌가. 사람보다는 실험체로서의 삶에 가까운 삶을 살게 될 것이다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "그런 삶을 영은 바라고 있을까. 나는 두 사람을 중재시킨 뒤 사이에 끼어들었다. 잠시만 영과 대화를 해 보겠다고 둘을 설득한 뒤 영과 마주했다. 영은 내 시선을 피하며 얼굴을 가렸지만, 나는 영에게 물었다. 그렇다면 영은 어떻게 하고 싶느냐고.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "무엇을 위해 계속해서 숨어 살다가 이곳에 올 결심을 하게 되었고, 수석을 죽여 실험을 끝마칠 결심을 하게 되었느냐고. 영은 침묵 끝에 울먹이는 목소리를 터뜨렸다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "최영",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": [
+          {
+            "code": "with2-d1",
+            "print": "사, 살고 싶었어요……. 그냥, 내 삶을 살고 싶었다고요. 내가 하고 싶은 일을 하고, 보고 싶은 걸 보고, 그렇게 자유롭게 지내고 싶었어요."
+          },
+          {
+            "code": "with2-d2",
+            "print": "채, 책임을 지려고 했어요……. 내가 저지른 일들에 대한 책임을 지고 싶었다고요."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          {
+            "code": "with2-d1",
+            "print": "그게 그렇게 잘못된 일인가요? 사람으로서 태어나 가져서는 안 되는 감정인가요? 당신도 공감했었잖아요!"
+          },
+          {
+            "code": "with2-d2",
+            "print": "당신이 말했잖아요. 남에게 피해를 주는 소망 같은 건 이루지 않아도 좋다고. 나는, 그때, 내가 너무 부끄러워져서……."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          {
+            "code": "with2-d1",
+            "print": "이루고 싶은 일이 있다면 남이 피해를 보는 것 정도는 괜찮다고, 이야기해 준 건 당신이었잖아요."
+          },
+          {
+            "code": "with2-d2",
+            "print": "그래서 내가 관여했던 일을 내가 마무리 짓기로 했던 거예요. 됐어요, 이제……."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          {
+            "code": "with2-d1",
+            "print": "그래서 나는 내 과거를 완전히 잘라 버리려고 이곳까지 온 건데, 그런데 왜……."
+          },
+          {
+            "code": "with2-d2",
+            "print": "책임을 질 거라면 마지막까지 지는 게 맞겠죠. 두 분의 의견 중 원하는 대로 하세요. 실험에는 얼마든지 협조할게요."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "영은 그것으로 이야기는 끝났다는 듯 입을 꾹 다물어 버렸다. 나는 한 번도 본 적 없었던 영의 가려진 눈동자, 괴물의 것처럼 검고 비대했으나 인간의 감정을 담은 그것을 가만히 들여다보다 완전히 결정을 내렸다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "나의 선택은 역시…….",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          {
+            "conditionalCode": "subnav1",
+            "code": "M1-m1",
+            "print": "◾세인의 편을 든다"
+          },
+          {
+            "conditionalCode": "subnav1",
+            "code": "M1-m2",
+            "print": "◾상수의 편을 든다"
+          },
+          {
+            "conditionalCode": "E1",
+            "code": "M1-n",
+            "print": "◾영이 자유로운 삶을 살게 해 주고 싶다"
+          }
+        ],
+        "option": true,
+        "condition": true
+      }
+    ],
+    "M1-n": [
+      {
+        "text": "이 사태를 해결하는 것도 중요했지만, 그를 위해서 영은 평생을 원치 않는 착취 속에서 살아가야만 하겠지. 그런 결말은 원하지 않았다. 결국 영 또한 타인을 위하여 살아 온 사람이 아니던가. 비록 그 결과가 좋지 않았을지언정, 우리에게 영을 무작정 비난하고 착취할 권리는 없는 것 같았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "나는 우선 세인과 상수에게 연구실에서 더 고민해 볼 시간을 가지자고 이야기했다. 두 사람은 기다림을 탐탁지 않아 했으나, 서로 의견의 골을 메우지 못한 나머지 그러겠다고 합의를 봤다. 연구실에는 평생 안락한 생활이 가능할 만큼 안정적인 시설이 갖추어져 있었고, 세인과 상수의 경계는 오래간만에 맛보는 평화에 방심해 느슨해졌다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "나는 그 틈을 타 영을 데리고 도망치기로 했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          {
+            "code": "with2-d1",
+            "print": "영은 눈물을 터뜨리며 내게 이해 받을 수 있을 것을 믿었다고 흐느꼈다."
+          },
+          {
+            "code": "with2-d2",
+            "print": "영은 처음에 내 제안을 거절하고자 했으나, 내 설득 끝에 자신의 삶을 찾고 싶다며 눈물을 터뜨렸다."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "우리는 세인과 상수를 두고 몰래 그곳을 빠져나왔다. 지금껏 영이 교묘하게 숨겨 왔기에 모르고 있었지만, 괴물은 정말 나만을 타깃으로 삼을 뿐 영을 공격하려 들지 않았다. 덕택에 영의 도움 아래서는 아주 쉽게, 아수라장 같던 그곳을 빠져나올 수 있었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "우리는 달렸다. 연구소가 보이지 않을 때까지, 우리가 살아 온 땅이 눈에서 멀어질 때까지, 이 세상의 모든 사람들이 우리 너머로 사라져 버릴 때까지.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          { "print": "END6 트루 엔딩: 살아 있을 사람들", "code": "end6" }
+        ],
+        "option": true
+      }
+    ],
+    "M1-i2": [
+      {
+        "text": "세인의 심정도 이해는 하겠지만, 일단은 상수의 말처럼 상황에 대한 설명을 영에게 듣는 것이 우선일 것 같았다. 무작정 다그친다고 해서 영의 입이 곧장 열린다는 보장도 없지 않나. 이곳에 대한 이해를 위해서는 영의 협조가 반드시 필요했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "지하는 조명이 환한 연구실이었다. 무엇인지 알지도 못할 만한 설비들이 정연하게 늘어서, 넓은 지하 공간을 가득 채우고 있었다. 설비 가운데 단연 눈에 띄는 것은 중앙의 거대한 기기였다. 푸른 빛이 도는 거대한 기기의 유리 관 안에 들어가 있는 것들은 사람이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "아니, 정확히는 우리가 직전에 마주쳤던 그 괴물로, 변화하고 있는 사람.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "야, 진짜 돌겠네. 미치광이 과학자, 뭔, 농담도 못 하겠어? 요즘 영화도 이렇게 쓰면 욕 먹는 거 몰라?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "대가리를 으깨 버리기 전에 잘 대답하는 게 좋을 거야. 네가 그래 왔냐?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "이세인 씨, 우리 조금만 진정합시다, 예? 이, 이세인 씨, 지금 너무 흥분하셨습니다.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "나는 상수를 거들어 세인과 영의 사이를 갈라놓았다. 세인은 살기가 형형해진 눈동자로 영을 노려보다 손을 풀고 물러섰다. 실 끊어진 인형처럼 바닥에 내동댕이쳐진 영은 그대로 쓰러져 울음만을 삼키다가, 간신히 입을 열어 이야기를 시작했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾영의 이야기를 듣는다", "code": "M1-j" }],
+        "option": true
+      }
+    ],
+    "M1-g2": [
+      {
+        "text": "곧장 문을 여는 것보다는 너머의 소리라도 들어 보는 게 낫지 않을까. 갑자기 뭔가 튀어나올 경우를 대비해서 우리도 준비가 되어 있는 편이 나을 테니까. 하지만 세인은 내 의견을 탐탁잖게 생각하는 것 같았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "시간 끌어 봤자 뭐가 달라지겠어? 우리가 더 할 수 있는 것도 없는데 말이야.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "뭐가 됐든, 이젠 직접 부딪혀 보는 수밖에 없다고.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "세인이 심호흡을 하는 소리와 함께 문고리를 잘각 쥐는 소리가 들려 왔다. 내 어깨 위에 놓인 상수의 손이 축축했다. 하나, 둘, 셋, 숫자를 세는 여유 따위는 없었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "세인이 문을 세게 밀자, 뻑뻑하게 녹슨 듯한 경첩이 음산한 소리를 내며 열렸다. 공기 중을 떠도는 인공적인 쇳내가 차갑게 폐를 파고든다. 갑작스레 닥쳐 든 빛에 눈이 아려 와 눈살을 찌푸리며 손차양을 했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "흐린 시야 속에서 서서히 형태를 되찾는 너머의 모습에, 전신을 덮쳐 온 것은 거대한 충격이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾당신은…….", "code": "M1-h" }],
+        "option": true
+      }
+    ],
+    "M1-e2": [
+      {
+        "text": "상수과 함께 오른쪽 복도로 향하기로 했다. 세인과 갈라져서 걷기 시작하자 발걸음 소리가 자박자박 울렸다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "복도의 우측에는 바깥을 향해 창문이 나 있었고, 좌측에는 시멘트가 칠해진 민무늬 벽만이 복도를 따라 죽 뻗어 있었다. 벽을 더듬거리며 걸었으나 별다른 특징이 보이는 것 같지는 않았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "복도의 끝에 다다르자 모퉁이에서 왼쪽으로 꺾인 복도가 다시 앞을 향해 일직선으로 뻗어 있었다. 그 복도를 따라 걷자 또 다시 왼쪽에서 일직선. 그리고 그 복도의 끝에는 문이 하나 자리하고 있었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "문을 열어 보자 지하로 내려가는 계단이 보였다. 나는 무전기를 통해 세인에게 이쪽 복도에 문이 있다는 이야기를 남겼고, 세인은 자신이 살핀 곳에는 아무것도 없었다 이야기하며 돌아와 우리와 합류했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "왜 귀찮게 이런 구조로 건물을 만들었는지는 모르겠지만……. 냄새가 구린 건 확실하네.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "조, 조심합시다. 다치지 않도록요. 되도록, 무사히 안을 살필 수 있게…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [{ "print": "◾계단을 내려간다", "code": "M1-f" }],
+        "option": true
+      }
+    ],
+    "M1-d2": [
+      {
+        "text": "그러나 여기에서 멈춰 서서는 안 됐다. 저들이 죽었지만, 저들이 죽었기에 더더욱. 비통에 빠져 좌절해 있기에는 우리가 너무 멀리 왔다. 죽은 사람들의 희생을 헛되이 하지 않기 위해서라도, 우리는 이 건물 안에서 무엇이라도 찾아 내야 했다. 반드시 그래야만 했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "내 이야기를 들은 두 사람은 잠시간 침묵하다 수긍의 표시를 보였다. 감정을 갈무리하는 것이 빨라 보이는 것은 역시 상수보다는 세인이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "그래. 어차피 바깥이 저 꼬라지인 이상 이제 돌아갈 수도 없을 텐데. 가야겠지, 앞으로. 뭐라도 찾아서.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "……가야지요. 예, 가야, 가야겠지요…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "세인의 헛웃음이 어두운 복도 속에서 나지막했다. 건물에는 전등이 없었다. 사람의 비명 소리가 멎었다. 괴물들의 괴성만이 부딪히며 울릴 뿐. 수십 겹이 겹쳐 나는 괴성은 하늘이 갈라지는 소리 같기도, 뼈를 뚫을 빗소리 같기도 했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "미안해요, 선생. 내가 틀렸나 봐. 너한테도 괜히 이런 일에 휘말리게 해서 미안하다. 전부 내 책임이야.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "……가 보자, 이 일의 의미를 찾아서.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "침체된 분위기 속 고개를 든다. 건물은 특이하게도 입구에서부터 좌우로 넓은 복도가 뻗어 있었다. 세인은 왼쪽 복도로, 상수는 오른쪽 복도로 향해 보기로 했다. 나는 어느 쪽으로 가 보는 것이 좋을까.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          { "print": "◾왼쪽 복도", "code": "M1-e1" },
+          { "print": "◾오른쪽 복도", "code": "M1-e2" }
+        ],
+        "option": true
+      }
+    ],
+    "M2": [
+      {
+        "text": "세인의 뒷자리에 타게 된다면 일을 하는 내내 쫑알거리는 목소리를 들어야 하겠지. 생각만 해도 벌써부터 피로감이 몰려오는 듯했다. 단칼에 제안을 거절하자 세인은 부러 과장되게 아쉬운 척을 했지만, 나도, 세인의 주변 사람들도 그 거짓 애수에 어울려 줄 생각은 없어 보였다. 결국 나는 남은 자리가 없다는 이유를 들어 반강제적으로 세인의 뒤에 앉게 되었지만.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "교란 팀을 맡은 사람들이 마지막으로 동선을 점검하며 대화를 나누고 있을 때, 침입 팀은 몸을 사리라는 말 외에는 더 전달받은 사항이 없었다. 그 폐건물 안에 뭐가 있을지를 아는 사람은 아무도 없었으니까. 어쩌면 들어서자마자 괴물보다 더한 걸 맞닥뜨리게 되거나 죽을지도 모르지.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "앉아서 죽나 서서 죽나 똑같다. 두려워하지 말자. 스스로를 다잡으며 세인이 떠넘긴 헬멧을 머리에 뒤집어 썼다. 어디서 굴러다니던 헬멧을 주워 온 탓인지 내 머리보다는 살짝 헐겁고, 얼굴을 가리는 플라스틱엔 금이 가 있는 헬멧이었다. 그렇더라도 한 겹 장비를 착용하고 나니 정말 나서게 되는구나, 실감이 들었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "내 앞자리에 앉아 있는 세인이 출발 신호를 보내자 오토바이에 일제히 시동이 걸렸다. 오래간만에 듣는 배기음이 낯설게 심장을 두드렸다. 몸을 울리는 진동에 허한 속이 메슥거리기 시작했다. 이것이 두려움 탓일지, 기대감 탓일지는 결과가 나온 뒤에 확신할 수 있으리라.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "가자, 미지를 마주하러.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾출발한다!", "code": "M1-a" }],
+        "option": true
+      }
+    ],
+    "L2": [
+      {
+        "text": "이리저리 상황을 재 보았지만, 아무리 보아도 세인의 제안은 위험도가 너무 높을 것 같았다. 미안하지만 합류하지 못할 것 같다고 무전으로 답하자, 세인은 맥 빠진 웃음소리를 내며 내 선택에 수긍했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "그래? 뭐…… 그렇다면 어쩔 수 없지.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "몸 잘 사리고 있으라고. 돌아와서 보자! 특별히 결과는 공유해 줄게.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "다시 가벼워진 어투가 꼭 근처 공원에 산책이라도 나갔다 오겠다고 이야기하는 것 같았다. 나는 적당히 알겠다는 답을 남기고 세인과의 무전을 끊었다. 저렇게 자신만만하게 나갔으니 걱정할 것 없이 기다리기만 하면 그만이겠지. 돌아오는 소식을 듣고 그때 다시 폐건물에 대해 생각해 보아도 될 일이다. 그렇게 생각했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "그러나 그 이후로 세인에게 연락이 오는 일은 다시 없었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "세인도, 상수도, 영도, 여태껏 스치며 이름을 익힌 모든 사람이 한 순간에 증발하듯 세상에서 사라져 버렸다. 지나며 마주치던 다른 생존자들 역시 하나둘씩 종적을 감추기 시작했다. 어디서부터, 무엇이 잘못된 걸까? 세인이 찾아냈다던 건물에서는 무슨 일이 있었던 거고, 내게 작별 인사를 한 영은 어디로 종적을 감춰 버린 걸까.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이유는 알 수 없었다. 아마도 영원히 알 수 없을 것 같았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "내게 답을 줄 수 있는 사람은 이제 아무도 남지 않았으므로.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          { "print": "END3 노멀 엔딩: 살아가는 사람들", "code": "end3" }
+        ],
+        "option": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,664 @@
+[
+  {
+    "sub1": [
+      {
+        "text": "슬슬 식량을 보충해야 할 때가 와 대형 슈퍼마켓 쪽으로 향했다. 세상이 망하기 전에는 나도 자주 들러서 장을 보고는 했던 곳이다. 사용하는 사람 하나 없이 엉망으로 무너져 있는 카트 더미 한가운데에 부러진 간판 한 쪽이 처박혀 있었다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": [
+          {
+            "code": "E1",
+            "print": "영과는 서로 다른 곳을 찾아 보기로 하고는 흩어져 마켓 내부를 수색하기 시작했다."
+          },
+          {
+            "code": "E2",
+            "print": "잘못 밟은 바닥에서 불탄 나무 조각 같은 것이 밟히며 와작 소리를 냈다."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": "가판은 박살이 나고, 선반 중에는 성해 보이는 것이 없다. 슈퍼마켓은 거의 폐허에 가까운 꼴이었지만, 그래도 잔해 사이사이로는 아직 쓸만한 물건을 건져 낼 수 있을 것처럼 보였다. 괴물이 몰려오기 전에 빠르게 살펴봐야겠다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "흙먼지 사이를 뒤적이고 있자니, 얼마 떨어지지 않은 곳에서 말소리가 들려 왔다. 걸음을 옮기자 반파된 매대 뒤쪽에서 두 사람이 실랑이를 벌이고 있었다. 청년 하나와 중년 한 명이었다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "청년이 뒷머리를 박박 긁으며 자신보다 작은 중년에게 성화를 토했다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "청년",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "그러니까, 이걸 냅다 내놓으라는 말이 날강도질이랑 뭐가 다른데? 선생도 정신 좀 차려요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "중년",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "하지만…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "청년",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "뭐가 ‘하지만’이야. 아, 거 참. 말귀를 못 알아들으시네.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": [{ "print": "◾무슨 일인가요? ", "code": "sub1-a" }],
+
+        "option": true
+      }
+    ],
+    "sub1-a": [
+      {
+        "text": "두 사람에게 다가가 가볍게 말을 붙였다. 청년은 내 쪽을 퉁명스럽게 돌아보았다가, 이내 쓰고 있던 야구 모자를 살짝 위로 올려 보이며 인사했다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "청년",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "못 보던 얼굴인데. 뉴 페이스?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "나는 간단히 자기소개를 하고 청년과 중년 사이의 사정을 물었다. 중년이 운을 떼려 하기도 전에 청년이 발끈한 듯 나서서 격한 어투로 말을 뱉기 시작했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "청년",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "마침 잘 됐네. 댁이 이 일 좀 듣고 판결해 봐!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": "이 슈퍼마켓은 생존자들이 물건을 구할 때 주로 찾는 곳이잖아? 당신도 그 목적으로 여길 찾아 온 거겠지. 그런데 세상이 망한 지도 꽤 되었다 보니, 쓸만한 물건 찾기가 아주 하늘의 별 따기란 말이에요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "그런 와중에, 허. 이거 봐라? 이 아저씨는 내가 여기서 간신히 찾아낸 약품을 자기한테 죄 달라고 박박 우기고 있다니까.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "아니, 우리나 선생네나 먹여 살릴 사람들 수는 거기서 거기인데, 선생만 약을 가져가야 한다는 주장이 말이 돼요?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "중년",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "……그, 그렇지만, 마냥 이유 없이 약품을 달라는 건 아닙니다!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "청년의 강한 공세에 중년이 당황한 듯 소리쳤다. 뻣뻣한 뒷목과 뺨에 열이 잔뜩 올라 있었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "중년",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "도, 돌보고 있는 아이와 노인 분들이 계십니다. 그분들에겐 의약품이 필요해요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "청년",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "아, 젊은이들은 병들어 뒤져도 문제가 없으시다?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "중년",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "그런 뜻이 아니지 않습니까…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "두 사람은 다시 실랑이를 벌이기 시작했다. 둘 다 어느 정도 타당한 이야기인 것처럼 들리는데. 그렇다면 나는…….",
+        "option": false,
+        "textStyle": "dialog"
+      },
+
+      {
+        "text": [
+          { "print": "◾청년의 편을 든다 ", "code": "sub1-b1" },
+          { "print": "◾중년의 편을 든다", "code": "sub1-b2" }
+        ],
+
+        "option": true
+      }
+    ],
+    "sub1-b1": [
+      {
+        "text": "청년이든, 아이든, 노인이든 생명이기는 매한가지다. 나는 약을 찾은 사람이 가져가는 편이 공정할 것 같다고 이야기했다.",
+        "textStyle": "dialog",
+        "option": false
+      },
+      {
+        "text": "그러자 의기양양해진 청년이 중년을 향해 보란듯이 손을 내밀며 외쳤다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "청년",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "봤지, 선생?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "중년",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "……아, 알겠습니다…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "중년은 풀이 죽은 채, 얼마 되지 않는 식량만을 품에 안고 터덜터덜 걸어 나갔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "청년",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "그러게 왜 되도 않는 고집을 부리고 그래, 저 아저씨는? 나도 마음이 찝찝하지 않은 건 아니란 말이야.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "청년은 그 뒷모습을 빤히 바라보다 들으란 듯이 자신의 머리를 벅벅 긁으며 중얼거렸다. 그러더니 휙 고개를 돌려 나를 바라봤다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "아무튼, 편들어 줘서 고마워요! 난 이세인이라고 해. 연배도 비슷해 보이는데, 말 놔도 괜찮지?",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+
+      {
+        "text": [
+          {
+            "code": "E1",
+            "print": "저쪽엔…… 흠. 한동안 혼자 다니던 아웃사이더 아가씨네. 둘이 동행?"
+          },
+          {
+            "code": "E2",
+            "print": "혼자 다니는 거야? 요즘 같은 세상에 위험하게시리."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "나는 적당히 고개를 끄덕여 보였다. 쾌활하게 말을 붙여 오는 모습이 서글서글한 호감형의 사람이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "그래, 그래. 저 아저씨는 선생…… 아니지. 김상수 씨라고 하는데, 주변에선 일단 선생으로 통하는 사람이야.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "애들이나 노인들을 돌봐 주고 있으니까 나도 사정을 더 봐주고 싶기야 한데, 우리 쪽에도 몸이 약한 사람들이 많아서 곤란해.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          { "print": "◾이해한다", "code": "sub1-c1" },
+          { "print": "◾두 무리가 함께하면 안 되나", "code": "sub1-c2" }
+        ],
+
+        "option": true
+      }
+    ],
+    "sub1-b2": [
+      {
+        "text": "어린이와 노인은 청년에 비해 약하지 않던가. 당연지사 약품이 더 필요할 것이다. 당장 부상자가 없다면 약은 노약자에게 넘기는 편이 나을 것 같다고 이야기했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "청년은 나와 중년을 번갈아 바라보다가 짜증이 난 듯 품 안의 약을 바닥에 내팽겨쳤다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "청년",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "아, 그럼 잘 먹고 잘 사시든가!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "청년이 씩씩대며 자리를 떠 버리자, 중년은 허겁지겁 허리를 굽혀 바닥에서 약을 주웠다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "중년",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "도, 도와 주셔서 감사합니다. 저희 쪽 아이 하나가 아무래도 잔병치레가 잦아서 약이 필요했거든요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "중년은 연신 내게 감사를 표하며 굽신거렸다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "저는 김상수라고 합니다. 괴물로부터 생존하기 힘든 아이나 어르신들을 돌보고 있어요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "방금 전에 저와 대화하시던 분은 이세인 씨라고 하는데, ……그, 아까 보시던 것만큼, 그렇게 나쁜 분은 아닙니다. 사정이 좀 엇갈려서…… 언쟁하는 모습을 보였지만요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "상수는 직전까지 자신에게 화를 내던 이를 이런저런 변명으로 변호하다가, 이내 다시 한번 허리를 깊게 숙여 보였다. 남에게 숙이며 사는 것이 버릇이 된 사람 같았다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "저, 저희는 가진 게 많이 없어서…… 감사 인사밖에는 드리지 못하겠네요. 정말 감사합니다.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "혹시라도 다음에 뵙게 된다면 꼭, 도움 드릴 일이 있었으면 좋겠습니다.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          { "print": "◾그럴 것 없다", "code": "sub1-c3" },
+          { "print": "◾다음에 기대하겠다", "code": "sub1-c4" }
+        ],
+        "option": true
+      }
+    ],
+    "sub1-c1": [
+      {
+        "text": "이런 세상에서 누구를 더 챙기고 위하는 것은 실질적으로 어려운 일이지. 자신의 사람들을 지키는 것만으로도 힘들 테니까. 세인의 고충을 이해한다고 이야기하자, 세인은 내 등을 시원하게 두드리며 웃었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "아, 뭐. 이런 식으로 남한테 징징거리려고 했던 건 아닌데 말이야!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "다들 각자의 사연이 있는 거지. 각자의 삶이 있고. 이기적으로 군다고 욕을 먹어도 할 말은 없지만, 그게 내 방식인걸.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "음, 뉴 페이스. 아무튼 마음에 드는데. 나중에 만나게 되면 한 번쯤은 도와줄게.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "몇 년은 알고 지낸 친구처럼 친근하게 어깨에 팔을 두르고 킬킬거리던 세인은 이내 가벼운 발걸음으로 마켓에서 떠나갔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+
+      {
+        "text": "내 이름 잊지 말고, 뉴 페이스. 다음에 보자!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          {
+            "code": "E1",
+            "print": "영은 세인이 자리를 피한 뒤에야 가까이 다가왔다. 아무래도 세인을 피하는 기색이었다. 사정을 묻자, 껄끄러운 듯 답해 주는 이야기가 짧았다. 동료 문제로 일이 있었다는 말뿐이었다. "
+          },
+          {
+            "code": "E2",
+            "print": "어깨 위에 남은 세인의 체온이 어색했다. 마지막까지 팔을 휘휘 저으며 멀어지는 세인을 보고 있자니 꼭 괴물이 없는 세상에서 동네 친구라도 만나고 헤어지는 듯한 기분이 들었다. 정작 세상이 망하기 전엔 내게 이렇게 친근하게 굴어 주는 사람이 없었는데, 우스운 일이지."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          {
+            "code": "E1",
+            "print": "세인이 떠난 자리를 멀거니 바라보다가 고개를 돌렸다. 잠깐이었지만 존재감이 대단한 사람이었다. 괴물들이 들이닥치기 전에 우리도 장소를 떠야겠지."
+          },
+          {
+            "code": "E2",
+            "print": "세인이 떠난 자리를 멀거니 바라보다가 고개를 돌렸다. 잠깐이었지만 존재감이 대단한 사람이었다. 괴물들이 들이닥치기 전에 나도 장소를 떠야겠지."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "궁금증만이 남은 자리에서 물건을 챙겨 걸음을 옮겼다. 세인을 향한 궁금증을 해소할 기회가 다음에 있을는지는 아직 모르겠다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾다음으로", "code": "subnav1" }],
+
+        "option": true
+      }
+    ],
+    "sub1-c2": [
+      {
+        "text": "내 편 네 편을 가를 시간에 집단을 하나로 만들어서 뭉치는 편이 더 낫지 않을까. 의견을 제시하자 세인은 내 어깨를 붙들고 파안대소했다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "그렇게 된다면야 더할 나위 없이 좋겠지만, 먹고사는 일이 그렇게 간단한 건 아니니까.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "아무튼, 뉴 페이스. 마음에 들었어. 다음에 또 만나게 된다면 한 번쯤은 도와줄게.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "몇 년은 알고 지낸 친구처럼 친근하게 어깨에 팔을 두르고 킬킬거리던 세인은 이내 가벼운 발걸음으로 마켓에서 떠나갔다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "이세인",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "내 이름 잊지 말고, 다음에 보자!",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": [
+          {
+            "code": "E1",
+            "print": "영은 세인이 자리를 피한 뒤에야 가까이 다가왔다. 아무래도 세인을 피하는 기색이었다. 사정을 묻자, 껄끄러운 듯 답해 주는 이야기가 짧았다. 동료 문제로 일이 있었다는 말뿐이었다."
+          },
+          {
+            "code": "E2",
+            "print": "어깨 위에 남은 세인의 체온이 어색했다. 마지막까지 팔을 휘휘 저으며 멀어지는 세인을 보고 있자니 꼭 괴물이 없는 세상에서 동네 친구라도 만나고 헤어지는 듯한 기분이 들었다. 정작 세상이 망하기 전엔 내게 이렇게 친근하게 굴어 주는 사람이 없었는데, 우스운 일이지."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          {
+            "code": "E1",
+            "print": "세인이 떠난 자리를 멀거니 바라보다가 고개를 돌렸다. 잠깐이었지만 존재감이 대단한 사람이었다. 괴물들이 들이닥치기 전에 나도 장소를 떠야겠지."
+          },
+          {
+            "code": "E2",
+            "print": "세인이 떠난 자리를 멀거니 바라보다가 고개를 돌렸다. 잠깐이었지만 존재감이 대단한 사람이었다. 괴물들이 들이닥치기 전에 우리도 장소를 떠야겠지."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "궁금증만이 남은 자리에서 물건을 챙겨 걸음을 옮겼다. 세인을 향한 궁금증을 해소할 기회가 다음에 있을는지는 아직 모르겠다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾다음으로", "code": "subnav1" }],
+
+        "option": true
+      }
+    ],
+    "sub1-c3": [
+      {
+        "text": "상수의 말에 고개를 저으며 그럴 것 없다고 이야기했다. 굳이 보상을 바라고 한 일은 아니었으니까. 이렇게 되어 버린 세상이더라도 약자를 더 위해 주는 것은 당연한 인간의 도리가 아니던가.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "감사합니다. 그래도, 다음에 은혜를 갚을 일이 있으면 찾아 주시면, 네. 저, 그럼, 이만…… 저희 애들을 데리러 가야 해서…….",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "그 이상의 정황을 물어보기도 전에, 약품을 손에 꼭 쥔 상수는 이내 몇 번이고 뒤를 돌아보며 후다닥 자리에서 멀어져 갔다. 어지간히 사정이 급했던 모양이다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          {
+            "code": "E1",
+            "print": "뒤쪽에서 먼지투성이 몇 개를 품에 든 영이 다가와 나를 불렀다. 운 좋게 목재 아래에 깔려 있던 캔을 발견한 듯했다. 영에게 상수에 대한 이야기를 묻자, 영은 자신도 그에게 도움을 받은 적이 있다는 이야기를 해 주었다. 이곳의 사람들은 모두 상수의 도움을 한 번씩은 받은 적이 있었으리라 하니, 알아갈수록 신기한 사람이었다."
+          },
+          {
+            "code": "E2",
+            "print": "상수의 편을 들기는 들었다지만, 정작 약자를 보호하거나 위하는 일을 아직 직접적으로 해 본 적이 없던 나는 묘한 기분이 들었다. 이런 세상에서 저렇게까지 남을 위해 살아가는 이유는 뭘까. 자신에게 화를 내던 이까지 변호해 가며 상수가 지키고 싶은 것은 무엇인 걸까."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          {
+            "code": "E1",
+            "print": "괴물들이 들이닥치기 전에 나도 장소를 떠야겠지. 궁금증만이 남은 자리에서 물건을 챙겨 걸음을 옮겼다. 상수를 향한 궁금증을 해소할 기회가 다음에 있을는지는 아직 모르겠다."
+          },
+          {
+            "code": "E2",
+            "print": "괴물들이 들이닥치기 전에 우리도 장소를 떠야겠지. 궁금증만이 남은 자리에서 물건을 챙겨 걸음을 옮겼다. 상수를 향한 궁금증을 해소할 기회가 다음에 있을는지는 아직 모르겠다."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾다음으로", "code": "subnav1" }],
+
+        "option": true
+      }
+    ],
+    "sub1-c4": [
+      {
+        "text": "빚을 달아 둬서 나쁠 건 없겠지. 상수에게 농담처럼 다음을 기약하는 말을 남겼다. 상수는 농조 어린 목소리에도 아랑곳하지 않고 뻣뻣한 태도로 진지하게 고개를 끄덕였다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": "김상수",
+        "option": false,
+        "textStyle": "npcName"
+      },
+      {
+        "text": "노, 노력하겠습니다. 은혜를 꼭…… 갚을 수 있도록요.",
+        "option": false,
+        "textStyle": "npcDialog"
+      },
+      {
+        "text": "농담이라는 걸 아예 모르는 사람처럼 삐걱거리던 상수는, 이내 연신 뒤를 돌아보고 굽신거리며 약품과 식량을 품에 안은 채 슈퍼를 후다닥 나섰다. 어지간히 사정이 급했던 모양이었다.",
+        "option": false,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          {
+            "code": "E1",
+            "print": "뒤쪽에서 먼지투성이 몇 개를 품에 든 영이 다가와 나를 불렀다. 운 좋게 목재 아래에 깔려 있던 캔을 발견한 듯했다. 영에게 상수에 대한 이야기를 묻자, 영은 자신도 그에게 도움을 받은 적이 있다는 이야기를 해 주었다. 이곳의 사람들은 모두 상수의 도움을 한 번씩은 받은 적이 있었으리라 하니,  알아갈수록 신기한 사람이었다."
+          },
+          {
+            "code": "E2",
+            "print": "상수의 편을 들기는 들었다지만, 정작 약자를 보호하거나 위하는 일을 아직 직접적으로 해 본 적이 없던 나는 묘한 기분이 들었다. 이런 세상에서 저렇게까지 남을 위해 살아가는 이유는 뭘까. 자신에게 화를 내던 이까지 변호해 가며 상수가 지키고 싶은 것은 무엇인 걸까."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [
+          {
+            "code": "E1",
+            "print": "괴물들이 들이닥치기 전에 나도 장소를 떠야겠지. 궁금증만이 남은 자리에서 물건을 챙겨 걸음을 옮겼다. 상수를 향한 궁금증을 해소할 기회가 다음에 있을는지는 아직 모르겠다."
+          },
+          {
+            "code": "E2",
+            "print": "괴물들이 들이닥치기 전에 우리도 장소를 떠야겠지. 궁금증만이 남은 자리에서 물건을 챙겨 걸음을 옮겼다. 상수를 향한 궁금증을 해소할 기회가 다음에 있을는지는 아직 모르겠다."
+          }
+        ],
+        "option": false,
+        "condition": true,
+        "textStyle": "dialog"
+      },
+      {
+        "text": [{ "print": "◾다음으로", "code": "subnav1" }],
+
+        "option": true
+      }
+    ]
+  }
+]
