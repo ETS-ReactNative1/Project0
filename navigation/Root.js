@@ -23,11 +23,13 @@ const testHP = [1, 2, 3];
 
 const NativeStack = createNativeStackNavigator();
 
+//메인 페이지 구성
 const Homepage = ({ navigation }) => {
   const { theme, hp } = useContext(ThemeContext);
   return (
     <View style={{ flex: 1 }}>
       <View style={styles[`container${theme}`]}>
+        {/* hp에 따른 하트 구현(미완성) */}
         <View style={{ flex: 1, marginHorizontal: 15, flexDirection: "row" }}>
           {testHP.map((key) => (
             <FontAwesome
@@ -46,6 +48,7 @@ const Homepage = ({ navigation }) => {
             marginRight: 15,
           }}
         >
+          {/* 저널 버튼 */}
           <TouchableOpacity onPress={() => navigation.navigate("Journalpage")}>
             <FontAwesome
               style={{ ...styles[`text${theme}`], padding: 7 }}
@@ -53,7 +56,7 @@ const Homepage = ({ navigation }) => {
               size={24}
             />
           </TouchableOpacity>
-
+          {/* 설정 버튼 */}
           <TouchableOpacity onPress={() => navigation.navigate("Nextpage")}>
             <FontAwesome
               style={{ ...styles[`text${theme}`], padding: 7 }}

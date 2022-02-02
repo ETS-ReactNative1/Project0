@@ -139,6 +139,7 @@ export const HomeModuleProvider = ({ children }) => {
     console.log(epilList);
   };
 
+  //처음 시작했을 때 이전에 보던 화면을 복구해주는 스크립트(미구현)
   // useEffect(async () => {
   //   const thelist = await useAsyncStorage("SubEvent1").getItem();
   //   if (thelist !== null) {
@@ -175,7 +176,6 @@ export const HomeModuleProvider = ({ children }) => {
   // const setFirstScreen = async (prop) => {
   //   console.log("screen loading...");
 
-  //   console.log("죽여줘");
   //   console.log("firstscreen", prop);
   //   //setScriptCode(prop);
   // };
@@ -186,6 +186,11 @@ export const HomeModuleProvider = ({ children }) => {
     }
   }, [choices]);
 
+  //선택지 코드에 따라 다음 스크립트를 로딩
+  //subnav=>랜덤으로 구성된 서브퀘스트 리스트 스크립트의 첫번째 요소로로 이동
+  //main=>해당 메인 스크립트의 첫번째 요소로 이동
+  //end=>엔딩 스크립트의 해당 코드로 이동
+  //else=>해당 코드로 이동
   const setScriptCode = async (prop) => {
     if (["subnav1", "subnav2", "subnav3"].includes(prop)) {
       console.log(newEvent);
@@ -215,6 +220,7 @@ export const HomeModuleProvider = ({ children }) => {
         console.log(newEvent);
       } else {
         if (choices.includes("E1")) {
+          //영과 동행하고 있다면
           switch (prop) {
             case "subnav1":
               settingScriptCode("with1");
@@ -233,6 +239,7 @@ export const HomeModuleProvider = ({ children }) => {
               break;*/
           }
         } else {
+          //영과 동행하지 않았다면
           switch (prop) {
             case "subnav1":
               settingScriptCode("out1");
@@ -287,6 +294,7 @@ export const HomeModuleProvider = ({ children }) => {
         setEndingCollection(valuelist);
         console.log("valuelist", valuelist);
       } else {
+        //asyncstorage에 방금 수집한 엔딩이 기록되어 있지 않다면 추가
         if (endingCollection.includes(prop) !== true) {
           useAsyncStorage("collectedME").setItem(
             JSON.stringify([...collection, prop])
@@ -296,6 +304,7 @@ export const HomeModuleProvider = ({ children }) => {
           console.log(valuelist);
         }
       }
+      //서브이벤트 카운터 초기화
       setEventCounter(0);
       setNewEvent(0);
     } else {

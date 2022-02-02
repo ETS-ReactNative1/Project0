@@ -246,7 +246,9 @@ const Setting = () => {
                 />
               </View>
             </View>
-            {/* <TouchableOpacity
+            {/* 
+            초기화 버튼(미구현)
+            <TouchableOpacity
               onPress={() => {
                 reset();
               }}

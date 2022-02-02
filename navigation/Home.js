@@ -79,9 +79,11 @@ const Home = () => {
   ];
   const [lastChoice, setLastChoice] = useState("A0");
   useEffect(async () => {
+    //이전에 선택했던 선택지들 값을 불러옴.(미구현)
     // const savedChoices = await useAsyncStorage("savedChoices").getItem();
     // console.log("savedChoices", savedChoices);
 
+    //이전에 수집한 엔딩 목록을 불러옴
     const ME = await useAsyncStorage("collectedME").getItem();
     const EP = await useAsyncStorage("collectedEP").getItem();
     console.log(ME, EP);
@@ -94,13 +96,14 @@ const Home = () => {
       console.log(epilList);
       setEpilList(JSON.parse(EP));
     }
+
+    //종료 전에 가지고 있던 랜덤 서브이벤트 목록을 불러옴(미구현)
     // const aSubEvent1 = await useAsyncStorage("SubEvent1").getItem();
     // const aSubEvent2 = await useAsyncStorage("SubEvent2").getItem();
+    //종료 전 가지고 있던 서브이벤트 카운터를 불러옴(미구현)
     // const aEventCounter = await useAsyncStorage("eventCounter").getItem();
 
-    //   if (choices.includes("main1")) {
-    //     setChoices([]);
-
+    //저장된 선택지값이 있다면 state에 저장하고 마지막으로 한 선택지 스크립트로 화면을 구성(미구현)
     // if (savedChoices !== "[]") {
     //   setChoices(JSON.parse(savedChoices));
     //   const forCheck = [...JSON.parse(savedChoices)].reverse();
@@ -120,7 +123,11 @@ const Home = () => {
 
     //   console.log("forCheck", forCheck);
     // }
+
+    //서브이벤트를 랜덤으로 구성
     addSubEvent();
+
+    //touch to start blink 애니메이션
     const interval = setInterval(() => {
       setShowText((showText) => !showText);
     }, 800);
@@ -132,10 +139,11 @@ const Home = () => {
   // useEffect(() => {
   //   console.log(choices);
   //   if (choices.includes("main1")) {
+  //엔딩을 보고 처음 화면으로 돌아왔을 경우 asyncstorage에 저장된 선택지와 서브이벤트 리스트를 초기화(미구현)
   //     setChoices([]);
   //     useAsyncStorage("savedChoices").removeItem();
-  //     // useAsyncStorage("SubEvent1").removeItem();
-  //     // useAsyncStorage("SubEvent2").removeItem();
+  //     useAsyncStorage("SubEvent1").removeItem();
+  //     useAsyncStorage("SubEvent2").removeItem();
   //   } else {
   //     try {
   //       useAsyncStorage("savedChoices").setItem(JSON.stringify(choices));
@@ -145,11 +153,6 @@ const Home = () => {
   //   }
   // }, [choices]);
   // const magicFunc = () => {
-  //   console.log("lastChoice", lastChoice);
-  //   setScriptCode(lastChoice);
-  //   //setScriptCode(choices[-1]);
-  //   //setChoices([...choices]);
-  // };
 
   return start ? (
     <View style={styles[`container${theme}`]}>
@@ -268,7 +271,7 @@ const Home = () => {
                     )}
                   </View>
                 ) : (
-                  //두번째 클릭
+                  //현재 사용하고 있는 typewriter 모듈의 한계로 두번째 클릭 시에 typewriter 컴포넌트를 view로 대체해서 rerender함.
 
                   <View>
                     {showingScript[key].condition === undefined ? (
@@ -375,6 +378,7 @@ const Home = () => {
       </View>
     </View>
   ) : (
+    //touch to start 화면
     <Pressable
       onPress={() => {
         setStart(true);
