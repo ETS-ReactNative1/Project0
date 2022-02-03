@@ -86,7 +86,7 @@ const Journal = () => {
           </TouchableOpacity>
         </View>
         <ScrollView>
-          <View style={{ marginBottom: 80 }}>
+          <View style={{ marginBottom: 50 }}>
             <View
               style={{
                 ...styles[`mainEndingBar${theme}`],
@@ -103,11 +103,16 @@ const Journal = () => {
                 메인 엔딩
               </Text>
             </View>
-            <View style={styles.endingContainer}>
+            <View style={{ ...styles.endingContainer }}>
               {MainEndings.map((end) => (
                 <View key={end.key} style={{ ...styles.endings }}>
                   {endingCollection.includes(end.code) ? (
                     <TouchableOpacity
+                      key={end.code}
+                      style={{
+                        flex: 1,
+                        justifyContent: "center",
+                      }}
                       onPress={() => {
                         navigation.navigate("Epiloguepage", {
                           title: end.title,
@@ -132,7 +137,13 @@ const Journal = () => {
                       </View>
                     </TouchableOpacity>
                   ) : (
-                    <View style={styles.mainEndingContainer}>
+                    <View
+                      key={end.code}
+                      style={{
+                        ...styles.mainEndingContainer,
+                        flex: 1,
+                      }}
+                    >
                       <Text
                         style={{ ...styles[`text${theme}`], color: "#D8D8D8" }}
                       >
@@ -267,13 +278,13 @@ const styles = StyleSheet.create({
   },
   endingContainer: {
     flex: 1,
-    height: windowHeight * 0.3,
+    height: windowHeight * 0.37,
     borderTopWidth: 1,
     borderColor: "#e5e5e5",
   },
   endings: {
     borderBottomWidth: 1,
-    height: windowHeight * 0.06,
+    flex: 1,
     borderColor: "#e5e5e5",
 
     justifyContent: "center",

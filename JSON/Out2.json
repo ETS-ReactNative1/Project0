@@ -22,7 +22,7 @@
         "textStyle": "dialog"
       },
       {
-        "text": [{ "print": "◾누구야?", "code": "out1-a" }],
+        "text": [{ "print": "◾누구야?", "code": "out2-a" }],
         "option": true
       }
     ],
